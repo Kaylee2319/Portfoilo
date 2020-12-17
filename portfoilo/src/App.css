@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    display: flex;
+    text-decoration: none;
+    background: linear-gradient(175.59deg, #244555 5.24%, #477577 107.81%);
+    justify-content: space-around;
+    height:75px;
+    padding: 0;
+    margin: 0;
+}
+
+ul{
+    text-decoration: none;  
+    list-style-type: none;
+    font-family: viga;
+    align-items: center;
+    font-size: 35px;
+    line-height: 47.04px;
+    color: azure;
+}
+
+.homePageBanner{
+    width: 100vh;
+    background-color: 848181,;
+}
