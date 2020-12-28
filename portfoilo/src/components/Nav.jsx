@@ -7,7 +7,7 @@ const Nav = () => {
          <ul className='nav'> 
               <li>Projects</li>
               <li>About Me</li>
-              <li> <img src={silvalogo} /> </li>
+              <li > <img className='logo' src={silvalogo} /> </li>
             
               <li> LinkedIn</li>
               <li>GitHub</li>

@@ -4,6 +4,7 @@ body{
 }
 
 .nav{
+
     display: flex;
     text-decoration: none;
     background: linear-gradient(175.59deg, #244555 5.24%, #477577 107.81%);
@@ -12,18 +13,107 @@ body{
     padding: 0;
     margin: 0;
 }
+img.logo{
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+    top: 6px;
+    left: 5px;
+}
 
 ul{
     text-decoration: none;  
     list-style-type: none;
     font-family: viga;
     align-items: center;
-    font-size: 35px;
+    font-size: 25px;
     line-height: 47.04px;
     color: azure;
+    padding: 20px;
+}
+li{
+    padding: 10;
 }
 
 .homePageBanner{
-    width: 100vh;
-    background-color: 848181,;
+    height: 100vh;
+    background:#848181;
+}
+
+.intro{
+    position: absolute;
+width: 435px;
+height: 360px;
+left: 138px;
+top: 165px;
+
+font-family: Viga;
+font-style: normal;
+font-weight: normal;
+font-size: 70px;
+line-height: 94px;
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+}
+
+.step1{
+    position: absolute;
+width: 358px;
+height: 81px;
+left: 138px;
+top: 693px;
+
+font-family: Viga;
+font-style: normal;
+font-weight: normal;
+font-size: 60px;
+line-height: 81px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+}
+
+.step2{
+    position: absolute;
+width: 286px;
+height: 81px;
+left: 631px;
+top: 693px;
+
+font-family: Viga;
+font-style: normal;
+font-weight: normal;
+font-size: 60px;
+line-height: 81px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+}
+
+.step3{
+    position: absolute;
+width: 217px;
+height: 81px;
+left: 1044px;
+top: 693px;
+
+font-family: Viga;
+font-style: normal;
+font-weight: normal;
+font-size: 60px;
+line-height: 81px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
 }
