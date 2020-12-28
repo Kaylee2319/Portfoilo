@@ -1,6 +1,10 @@
 body{
     margin: 0;
     padding: 0;
+    position: relative;
+    width: 1440px;
+    height: 4296px;
+    background: #F1F6F9;
 }
 
 .nav{
@@ -116,4 +120,91 @@ display: flex;
 align-items: center;
 
 color: #FFFFFF;
+}
+
+.Heading1{position: absolute;
+    width: 213px;
+    height: 67px;
+    left: 144px;
+    top: 916px;
+    
+    font-family: Viga;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 67px;
+    
+    color: #00587A;}
+
+.Passage1{
+    position: absolute;
+    width: 1176px;
+    height: 217px;
+    left: 140px;
+    top: 1025px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 151.2%;
+    color: #4A4D50;
+    }
+.skillcard1{
+    position: absolute;
+width: 330px;
+height: 112px;
+left: 149px;
+top: 1469px;
+
+background: linear-gradient(180deg, #204051 -9.16%, #497879 104.82%);
+border-radius: 15px;
+}
+p.cardtitle1{
+    position: absolute;
+    left: 114px;
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 27px;
+    line-height: 32px;
+    color: #F1F6F9;
+}
+.skillcard2{
+    position: absolute;
+width: 330px;
+height: 112px;
+left: 563px;
+top: 1469px;
+
+background: linear-gradient(180deg, #204051 -9.16%, #497879 104.82%);
+border-radius: 15px;
+}
+p.cardtitle2{
+    position: absolute;
+    left: 114px;
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 27px;
+    line-height: 32px;
+    color: #F1F6F9;   
+}
+.skillcard3{
+    position: absolute;
+width: 330px;
+height: 112px;
+left: 977px;
+top: 1469px;
+background: linear-gradient(180deg, #204051 -9.16%, #497879 104.82%);
+border-radius: 15px;
+}
+p.cardtitle3{
+    position: absolute;
+    left: 114px;
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 27px;
+    line-height: 32px;
+    color: #F1F6F9;   
 }
