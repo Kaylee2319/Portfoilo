@@ -1,16 +1,15 @@
 import React from 'react';
 import AboutMe from '../components/AboutMe'
-
+import hero from '../images/hero.png'
 const HomePage = () => {
   return (
   
-  <div>  <div className="homePageBanner"> 
-    <div className='intro'>Hi , I am<br/>Silva<br/> A Web<br/>Designer</div>
-    <div className='step1'>Research</div>
-    <div className='step2'>Design</div>
-    <div className='step3'>Develop</div>
-    </div>
-    <AboutMe />
+  <div ><img className='hero' src={hero} />
+  <h1 className='Heading1'> &lt;h1&gt; <br/>Silva <br/>
+Web Designer &lt;h1&gt;
+ </h1 >
+ <AboutMe />
+
     </div>
   );
 };

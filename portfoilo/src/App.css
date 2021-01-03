@@ -1,163 +1,147 @@
 body{
     margin: 0;
     padding: 0;
-    position: relative;
-    width: 1440px;
-    height: 4296px;
     background: #F1F6F9;
 }
 
-.nav{
+.navbackground{
+width: 1440px;
+height: 95px;
+position: absolute;
+ left: 0%;
+ right: 0%;
+ top: 0%;
+ bottom: -1.05%;
+ background: linear-gradient(180.75deg, #244555 42.03%, #27292C 139.12%);
 
-    display: flex;
-    text-decoration: none;
-    background: linear-gradient(175.59deg, #244555 5.24%, #477577 107.81%);
-    justify-content: space-around;
-    height:75px;
-    padding: 0;
-    margin: 0;
+}
+ul.nav{
+    list-style: none;
+}
+.link1{
+   
+    position: absolute;
+left: 1.74%;
+right: 91.74%;
+top: 34.74%;
+bottom: 38.95%;
+
+font-family: Viga;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 34px;
+
+color: #FFFFFF;
 }
 img.logo{
-    padding: 10px;
-    margin: 10px;
-    position: relative;
-    top: 6px;
-    left: 5px;
+position: relative;
+top: -37px;
+left: 38%;
 }
-
-ul{
-    text-decoration: none;  
-    list-style-type: none;
-    font-family: viga;
-    align-items: center;
-    font-size: 25px;
-    line-height: 47.04px;
-    color: azure;
-    padding: 20px;
-}
-li{
-    padding: 10;
-}
-
-.homePageBanner{
-    height: 100vh;
-    background:#848181;
-}
-
-.intro{
-    position: absolute;
-width: 435px;
-height: 360px;
-left: 138px;
-top: 165px;
-
-font-family: Viga;
-font-style: normal;
-font-weight: normal;
-font-size: 70px;
-line-height: 94px;
-display: flex;
-align-items: center;
-
-color: #FFFFFF;
-}
-
-.step1{
-    position: absolute;
-width: 358px;
-height: 81px;
-left: 138px;
-top: 693px;
-
-font-family: Viga;
-font-style: normal;
-font-weight: normal;
-font-size: 60px;
-line-height: 81px;
-/* identical to box height */
-
-display: flex;
-align-items: center;
-
-color: #FFFFFF;
-}
-
-.step2{
-    position: absolute;
-width: 286px;
-height: 81px;
-left: 631px;
-top: 693px;
-
-font-family: Viga;
-font-style: normal;
-font-weight: normal;
-font-size: 60px;
-line-height: 81px;
-/* identical to box height */
-
-display: flex;
-align-items: center;
-
-color: #FFFFFF;
-}
-
-.step3{
-    position: absolute;
-width: 217px;
-height: 81px;
-left: 1044px;
-top: 693px;
-
-font-family: Viga;
-font-style: normal;
-font-weight: normal;
-font-size: 60px;
-line-height: 81px;
-/* identical to box height */
-
-display: flex;
-align-items: center;
-
-color: #FFFFFF;
-}
-
-.Heading1{position: absolute;
-    width: 213px;
-    height: 67px;
-    left: 144px;
-    top: 916px;
+ .link2{position: absolute;
+    left: 14.24%;
+    right: 77.92%;
+    top: 31.58%;
+    bottom: 40%;
     
     font-family: Viga;
     font-style: normal;
     font-weight: normal;
-    font-size: 50px;
-    line-height: 67px;
+    font-size: 25px;
+    line-height: 34px;
     
+    color: #FFFFFF;}
+
+    .linkedinlogo{
+        position: absolute;
+left: 87.15%;
+right: 10.07%;
+top: 29.47%;
+bottom: 28.42%;
+
+background: #FFFFFF;
+
+background: #FFFFFF;
+    }
+    .githublogo{
+        position: absolute;
+left: 95.14%;
+right: 2.08%;
+top: 29.47%;
+bottom: 28.42%;
+
+    }
+
+.hero{
+    position: absolute;
+width: 1441px;
+height: 768px;
+left: -1px;
+top: 95px;
+}
+.Heading1{
+    position: absolute;
+    width: 463px;
+    height: 340px;
+    left: 70px;
+    top: 159px;
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 85px;
+    color: #FFFFFF;
+}
+
+.Heading2{position: absolute;
+    width: 234px;
+    height: 61px;
+    left: 144px;
+    top: 916px;
+    
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 61px;
     color: #00587A;}
 
 .Passage1{
     position: absolute;
-    width: 1176px;
-    height: 217px;
-    left: 140px;
-    top: 1025px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 25px;
-    line-height: 151.2%;
+width: 1176px;
+height: 496px;
+left: 140px;
+top: 1039px;
+
+font-family: Proxima Nova;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 145.2%;
+    /* or 29px */
+    
+    
     color: #4A4D50;
+    
+    }
+
+    .skillcardgroup{
+        position: absolute;
+    width: 1158px;
+    height: 112px;
+    left: 144px;
+    top: 1833px;
     }
 .skillcard1{
     position: absolute;
-width: 330px;
-height: 112px;
-left: 149px;
-top: 1469px;
-
-background: linear-gradient(180deg, #204051 -9.16%, #497879 104.82%);
-border-radius: 15px;
+    left: 0%;
+    right: 71.5%;
+    top: 0%;
+    bottom: 0%;
+    
+    background: linear-gradient(180deg, #204051 -9.16%, #497879 104.82%);
+    border-radius: 15px;
 }
 p.cardtitle1{
     position: absolute;
@@ -171,13 +155,13 @@ p.cardtitle1{
 }
 .skillcard2{
     position: absolute;
-width: 330px;
-height: 112px;
-left: 563px;
-top: 1469px;
-
-background: linear-gradient(180deg, #204051 -9.16%, #497879 104.82%);
-border-radius: 15px;
+    left: 35.75%;
+    right: 35.75%;
+    top: 0%;
+    bottom: 0%;
+    
+    background: linear-gradient(180deg, #204051 -9.16%, #497879 104.82%);
+    border-radius: 15px;
 }
 p.cardtitle2{
     position: absolute;
@@ -191,12 +175,13 @@ p.cardtitle2{
 }
 .skillcard3{
     position: absolute;
-width: 330px;
-height: 112px;
-left: 977px;
-top: 1469px;
-background: linear-gradient(180deg, #204051 -9.16%, #497879 104.82%);
-border-radius: 15px;
+    left: 71.5%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    
+    background: linear-gradient(180deg, #204051 -9.16%, #497879 104.82%);
+    border-radius: 15px;
 }
 p.cardtitle3{
     position: absolute;
