@@ -5,6 +5,8 @@ body{
 }
 
 .navbackground{
+    position: fixed;
+	
 width: 1440px;
 height: 95px;
 position: absolute;
@@ -23,7 +25,7 @@ ul.nav{
     position: absolute;
 left: 1.74%;
 right: 91.74%;
-top: 34.74%;
+top: 34px;
 bottom: 38.95%;
 
 font-family: Viga;
@@ -36,13 +38,13 @@ color: #FFFFFF;
 }
 img.logo{
 position: relative;
-top: -37px;
-left: 38%;
+top: -36px;
+left: 45%;
 }
  .link2{position: absolute;
     left: 14.24%;
     right: 77.92%;
-    top: 31.58%;
+    top: 34px;
     bottom: 40%;
     
     font-family: Viga;
@@ -54,23 +56,18 @@ left: 38%;
     color: #FFFFFF;}
 
     .linkedinlogo{
-        position: absolute;
-left: 87.15%;
-right: 10.07%;
-top: 29.47%;
-bottom: 28.42%;
-
-background: #FFFFFF;
-
-background: #FFFFFF;
+        content: url(https://api.iconify.design/brandico:linkedin-rect.svg?color=%23FFFFFF&width=40px&height=40px);
+    vertical-align: -0.125em;
+    position: absolute;
+    top: 27px;
+    left: 87%;
     }
     .githublogo{
-        position: absolute;
-left: 95.14%;
-right: 2.08%;
-top: 29.47%;
-bottom: 28.42%;
-
+        content: url('https://api.iconify.design/bx:bxl-github.svg?color=%23FFFFFF&width=50px&height=50px');
+        vertical-align: -0.125em;
+    position: absolute;
+    top: 22px;
+    left: 95%;
     }
 
 .hero{
