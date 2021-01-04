@@ -154,62 +154,76 @@ color: #4A4D50;
     top: 1833px;
     }
 .skillcard1{
-    position: absolute;
-    left: 0%;
-    right: 71.5%;
-    top: 0%;
-    bottom: 0%;
-    
-    background: linear-gradient(180deg, #204051 -9.16%, #497879 104.82%);
-    border-radius: 15px;
+position: absolute;
+left: 0%;
+right: 71.5%;
+top: 0%;
+bottom: 0%;
+background: linear-gradient(180deg, #204051 -9.16%, #497879 104.82%);
+border-radius: 15px;
 }
+
+.skillcard1:hover{
+width: 329px;
+height: 400px;
+}
+
 p.cardtitle1{
-    position: absolute;
-    left: 114px;
-    font-family: Roboto;
-    font-style: italic;
-    font-weight: bold;
-    font-size: 27px;
-    line-height: 32px;
-    color: #F1F6F9;
+position: absolute;
+left: 114px;
+font-family: Proxima Nova;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 37px;
+color: #F1F6F9;
 }
 .skillcard2{
-    position: absolute;
-    left: 35.75%;
-    right: 35.75%;
-    top: 0%;
-    bottom: 0%;
-    
-    background: linear-gradient(180deg, #204051 -9.16%, #497879 104.82%);
-    border-radius: 15px;
+position: absolute;
+left: 35.75%;
+right: 35.75%;
+top: 0%;
+bottom: 0%;
+background: linear-gradient(180deg, #204051 -9.16%, #497879 104.82%);
+border-radius: 15px;
 }
+
+.skillcard2:hover{
+width: 329px;
+height: 400px;
+}
+
 p.cardtitle2{
-    position: absolute;
-    left: 114px;
-    font-family: Roboto;
-    font-style: italic;
-    font-weight: bold;
-    font-size: 27px;
-    line-height: 32px;
-    color: #F1F6F9;   
+position: absolute;
+left: 114px;
+font-family: Proxima Nova;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 37px;
+color: #F1F6F9;   
 }
 .skillcard3{
-    position: absolute;
-    left: 71.5%;
-    right: 0%;
-    top: 0%;
-    bottom: 0%;
-    
-    background: linear-gradient(180deg, #204051 -9.16%, #497879 104.82%);
-    border-radius: 15px;
+ position: absolute;
+left: 71.5%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+background: linear-gradient(180deg, #204051 -9.16%, #497879 104.82%);
+border-radius: 15px;
+}
+
+.skillcard3:hover{
+width: 329px;
+height: 400px;
 }
 p.cardtitle3{
-    position: absolute;
-    left: 114px;
-    font-family: Roboto;
-    font-style: italic;
-    font-weight: bold;
-    font-size: 27px;
-    line-height: 32px;
-    color: #F1F6F9;   
+position: absolute;
+left: 114px;
+font-family: Proxima Nova;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 37px;
+color: #F1F6F9;   
 }
