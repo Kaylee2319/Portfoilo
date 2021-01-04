@@ -1,5 +1,5 @@
 import React,  { useState } from 'react'
-
+import SkillCards from '../components/SkillCards'
 
 
 const AboutMe = () => {
@@ -60,21 +60,13 @@ return (
 
 }
 
-        
+         
 
-          <button className='arrow' onClick={Toggle}>toggle</button>
+          <a  onClick={Toggle}><span class="iconify" data-icon="bi:arrow-down-circle-fill" data-inline="false"></span></a>
 
-          
+          <SkillCards />
 
-     <div className='skillcardgroup'>
-
-        <div className='skillcard1'><p className='cardtitle1'>General</p></div>
-
-        <div className='skillcard2'><p className='cardtitle2'>Design</p></div>
-
-        <div className='skillcard3'><p className='cardtitle3'>Frontend</p></div>
-
-    </div>
+     
 
     </div>
 

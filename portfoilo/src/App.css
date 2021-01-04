@@ -62,12 +62,12 @@ left: 45%;
     left: 87%;
     }
     .githublogo{
-        content: url('https://api.iconify.design/bx:bxl-github.svg?color=%23FFFFFF&width=50px&height=50px');
-        vertical-align: -0.125em;
-    position: absolute;
-    top: 22px;
-    left: 95%;
-    }
+content: url('https://api.iconify.design/bx:bxl-github.svg?color=%23FFFFFF&width=50px&height=50px');
+vertical-align: -0.125em;
+position: absolute;
+top: 22px;
+left: 95%;
+}
 
 .hero{
     position: absolute;
@@ -132,27 +132,42 @@ color: #4A4D50;
     color: #4A4D50;
 }
 
-
-
-
-
-
-.arrow{
-    content: url(https://api.iconify.design/eva:arrow-circle-down-fill.svg?color=%2327292C&width=50px&height=50px);
-    vertical-align: -0.125em;
+.iconify{
+    color:#27292C;
     position: absolute;
-    left: 660px;
-    top: 1750px;
-    background: #27292C;
+    left: 690px;
+    top: 1680px;
+    height: 50px;
+}
+.Heading3{
+position: absolute;
+width: 119px;
+height: 61px;
+left: 658px;
+top: 1704px;
+    
+font-family: Proxima Nova;
+font-style: normal;
+font-weight: bold;
+font-size: 50px;
+line-height: 61px;
+    
+    
+color: #394867;    
 }
 
-    .skillcardgroup{
-        position: absolute;
-    width: 1158px;
-    height: 112px;
-    left: 144px;
-    top: 1833px;
-    }
+
+
+
+.skillcardgroup{
+position: absolute;
+width: 1158px;
+height: 112px;
+left: 144px;
+top: 1833px;
+}
+
+
 .skillcard1{
 position: absolute;
 left: 0%;
@@ -161,12 +176,33 @@ top: 0%;
 bottom: 0%;
 background: linear-gradient(180deg, #204051 -9.16%, #497879 104.82%);
 border-radius: 15px;
+display: inline;
 }
 
-.skillcard1:hover{
+.skills1{
+list-style: none;
+position: absolute;
+width: 200px;
+height: 24.94px;
+left: 21px;
+bottom: 273px;
+font-family: Proxima Nova;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 50px;
+color: #ffffff;
+display: none;
+}
+
+
+.skillcard1:hover {
 width: 329px;
 height: 400px;
 }
+.skillcard1:hover .skills1 {
+    display:  inline;
+    }
 
 p.cardtitle1{
 position: absolute;
@@ -178,6 +214,8 @@ font-size: 30px;
 line-height: 37px;
 color: #F1F6F9;
 }
+
+
 .skillcard2{
 position: absolute;
 left: 35.75%;
@@ -188,9 +226,28 @@ background: linear-gradient(180deg, #204051 -9.16%, #497879 104.82%);
 border-radius: 15px;
 }
 
+.skills2{
+list-style: none;
+position: absolute;
+width: 200px;
+height: 24.94px;
+left: 21px;
+bottom: 273px;
+font-family: Proxima Nova;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 50px;
+color: #ffffff;
+display: none;
+}
 .skillcard2:hover{
 width: 329px;
 height: 400px;
+display: inline;
+}
+.skillcard2:hover .skills2{
+display: inline;  
 }
 
 p.cardtitle2{
@@ -203,6 +260,7 @@ font-size: 30px;
 line-height: 37px;
 color: #F1F6F9;   
 }
+
 .skillcard3{
  position: absolute;
 left: 71.5%;
@@ -212,11 +270,30 @@ bottom: 0%;
 background: linear-gradient(180deg, #204051 -9.16%, #497879 104.82%);
 border-radius: 15px;
 }
+.skills3{
+list-style: none;
+position: absolute;
+width: 200px;
+height: 24.94px;
+left: 21px;
+bottom: 273px;
+font-family: Proxima Nova;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 50px;
+color: #ffffff;
+display: none;
+}
 
 .skillcard3:hover{
 width: 329px;
 height: 400px;
 }
+.skillcard3:hover .skills3{
+    display: inline;  
+    }
+
 p.cardtitle3{
 position: absolute;
 left: 114px;
