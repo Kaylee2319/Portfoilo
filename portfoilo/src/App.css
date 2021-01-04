@@ -1,28 +1,27 @@
 body{
-    margin: 0;
-    padding: 0;
-    background: #F1F6F9;
+margin: 0;
+padding: 0;
+background: #F1F6F9;
 }
 
 .navbackground{
-    position: fixed;
-	
+position: fixed;
 width: 1440px;
 height: 95px;
-position: absolute;
- left: 0%;
- right: 0%;
- top: 0%;
- bottom: -1.05%;
- background: linear-gradient(180.75deg, #244555 42.03%, #27292C 139.12%);
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: -1.05%;
+background: linear-gradient(180.75deg, #244555 42.03%, #27292C 139.12%);
+z-index: 10;
+}
 
-}
 ul.nav{
-    list-style: none;
+list-style: none;
 }
+
 .link1{
-   
-    position: absolute;
+position: absolute;
 left: 1.74%;
 right: 91.74%;
 top: 34px;
@@ -116,12 +115,36 @@ font-style: normal;
 font-weight: 600;
 font-size: 20px;
 line-height: 145.2%;
-    /* or 29px */
-    
-    
+color: #4A4D50;
+}
+
+.Passage2{
+    position: absolute;
+    width: 1176px;
+    height: 496px;
+    left: 140px;
+    top: 1184px;
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 145.2%;
     color: #4A4D50;
-    
-    }
+}
+
+
+
+
+
+
+.arrow{
+    content: url(https://api.iconify.design/eva:arrow-circle-down-fill.svg?color=%2327292C&width=50px&height=50px);
+    vertical-align: -0.125em;
+    position: absolute;
+    left: 660px;
+    top: 1750px;
+    background: #27292C;
+}
 
     .skillcardgroup{
         position: absolute;
