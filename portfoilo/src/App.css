@@ -2,11 +2,13 @@ body{
 margin: 0;
 padding: 0;
 background: #F1F6F9;
+max-width: 100%;
+overflow-x: hidden;
 }
 
 .navbackground{
 position: fixed;
-width: 1440px;
+
 height: 95px;
 left: 0%;
 right: 0%;
@@ -27,7 +29,7 @@ right: 91.74%;
 top: 34px;
 bottom: 38.95%;
 
-font-family: Viga;
+font-family: Proxima Nova;
 font-style: normal;
 font-weight: normal;
 font-size: 25px;
@@ -41,12 +43,13 @@ top: -36px;
 left: 45%;
 }
  .link2{position: absolute;
+    width: 200px;
     left: 14.24%;
     right: 77.92%;
     top: 34px;
     bottom: 40%;
     
-    font-family: Viga;
+    font-family: Proxima Nova;
     font-style: normal;
     font-weight: normal;
     font-size: 25px;
@@ -70,46 +73,44 @@ left: 95%;
 }
 
 .hero{
-    position: absolute;
+    position: relative;
 width: 1441px;
 height: 768px;
 left: -1px;
 top: 95px;
 }
 .Heading1{
-    position: absolute;
-    width: 463px;
-    height: 340px;
-    left: 70px;
-    top: 159px;
-    font-family: Proxima Nova;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 70px;
-    line-height: 85px;
-    color: #FFFFFF;
+position: relative;
+width: 463px;
+left: 70px;
+top: -650px;
+font-family: Proxima Nova;
+font-style: normal;
+font-weight: bold;
+font-size: 70px;
+line-height: 85px;
+color: #FFFFFF;
 }
 
-.Heading2{position: absolute;
-    width: 234px;
-    height: 61px;
-    left: 144px;
-    top: 916px;
-    
-    font-family: Proxima Nova;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 50px;
-    line-height: 61px;
-    color: #00587A;}
+.Heading2{   
+position: relative;
+height: 61px;
+left: 144px;
+top: -297px;
+font-family: Proxima Nova;
+font-style: normal;
+font-weight: bold;
+font-size: 50px;
+line-height: 61px;
+color: #00587A;
+}
 
 .Passage1{
-    position: absolute;
+position: relative;
 width: 1176px;
-height: 496px;
+height: 120px;
 left: 140px;
-top: 1039px;
-
+top: -287px;
 font-family: Proxima Nova;
 font-style: normal;
 font-weight: 600;
@@ -119,52 +120,47 @@ color: #4A4D50;
 }
 
 .Passage2{
-    position: absolute;
-    width: 1176px;
-    height: 496px;
-    left: 140px;
-    top: 1184px;
-    font-family: Proxima Nova;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 145.2%;
-    color: #4A4D50;
+position: relative;
+width: 1176px;
+height: 200px;
+left: 140px;
+top: -285px;
+font-family: Proxima Nova;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 145.2%;
+color: #4A4D50;
 }
 
 .iconify{
-    color:#27292C;
-    position: absolute;
-    left: 690px;
-    top: 1680px;
-    height: 50px;
+color: #27292C;
+position: relative;
+left: 690px;
+top: -225px;
 }
 .Heading3{
-position: absolute;
-width: 119px;
+position: relative;
 height: 61px;
-left: 658px;
-top: 1704px;
-    
+right: -650px;
+top: -159px;
 font-family: Proxima Nova;
 font-style: normal;
 font-weight: bold;
 font-size: 50px;
 line-height: 61px;
-    
-    
-color: #394867;    
+color: #394867;
 }
 
 
 
 
 .skillcardgroup{
-position: absolute;
+position: relative;
 width: 1158px;
 height: 112px;
 left: 144px;
-top: 1833px;
+top: -100px;
 }
 
 

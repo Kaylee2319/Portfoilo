@@ -62,7 +62,7 @@ return (
 
          
 
-          <a  onClick={Toggle}><span class="iconify" data-icon="bi:arrow-down-circle-fill" data-inline="false"></span></a>
+          <a  onClick={Toggle}><span class="iconify" data-icon="bi:arrow-down-circle-fill" data-inline="false" data-width="50" data-height="50"></span></a>
 
           <SkillCards />
 
