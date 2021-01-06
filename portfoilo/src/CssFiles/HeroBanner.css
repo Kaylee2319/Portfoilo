@@ -1,0 +1,70 @@
+.Main-Sec {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.hero {
+  width: 100vw;
+  height: fit-content;
+  margin-top: 5rem;
+}
+
+.Heading1 {
+  align-items: flex-start;
+  width: fit-content;
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 70px;
+  line-height: 85px;
+  color: #ffffff;
+  margin-right: 79rem;
+  margin-top: -49rem;
+  margin-bottom: 33rem;
+}
+
+@media only screen and (min-width: 1024px) {
+  .Heading1 {
+    margin-right: 17rem;
+    margin-top: -29rem;
+    margin-bottom: 9rem;
+  }
+
+  .hero {
+    width: 100vw;
+    height: -moz-fit-content;
+    height: fit-content;
+    margin-top: 95px;
+  }
+}
+
+@media only screen and (min-width: 1224px) {
+  .Heading1 {
+    margin-right: 36rem;
+    margin-top: -34rem;
+    margin-bottom: 18rem;
+    font-size: 58px;
+  }
+  .aboutMeSection {
+    margin-top: -5rem;
+  }
+}
+@media only screen and (min-width: 1668px) {
+  .Heading1 {
+    margin-right: 47rem;
+    margin-top: -43rem;
+    margin-bottom: 26rem;
+    font-size: 80px;
+  }
+}
+@media only screen and (min-width: 1824px) {
+  .Heading1 {
+    margin-right: 55rem;
+    margin-top: -48rem;
+    margin-bottom: 30rem;
+  }
+
+  .aboutMeSection {
+    margin-top: 30rem;
+  }
+}

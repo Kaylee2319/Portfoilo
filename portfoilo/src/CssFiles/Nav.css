@@ -1,0 +1,161 @@
+.navbackground {
+  position: fixed;
+  display: flexbox;
+  width: 100vw;
+  height: 95px;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: -1.05%;
+  background: linear-gradient(180.75deg, #244555 42.03%, #27292c 139.12%);
+  z-index: 3;
+}
+
+ul.nav-right {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+ul.nav-left {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  bottom: 184%;
+}
+
+.link1 {
+  position: relative;
+  height: fit-content;
+  left: -19.26%;
+  top: 11px;
+  font-family: Proxima Nova;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 34px;
+  color: #ffffff;
+}
+img.logo {
+  position: relative;
+  top: -41px;
+  left: -326%;
+}
+
+.link2 {
+  position: relative;
+  height: fit-content;
+  left: -35.76%;
+  top: 11px;
+  bottom: 40%;
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 34px;
+  color: #ffffff;
+}
+
+.linkedinlogo {
+  content: url(https://api.iconify.design/brandico:linkedin-rect.svg?color=%23FFFFFF&width=40px&height=40px);
+  vertical-align: -0.125em;
+  position: relative;
+  top: 23px;
+  left: 57%;
+}
+
+.githublogo {
+  content: url("https://api.iconify.design/bx:bxl-github.svg?color=%23FFFFFF&width=50px&height=50px");
+  vertical-align: -0.125em;
+  position: relative;
+  top: 23px;
+  left: 29%;
+}
+@media only screen and (min-width: 1024px) {
+  .link1 {
+    font-size: 30px;
+    margin-left: 3rem;
+  }
+  .link2 {
+    font-size: 30px;
+    margin-left: 5rem;
+  }
+  img.logo {
+    position: relative;
+    top: -41px;
+    left: -203%;
+  }
+  .linkedinlogo {
+    position: relative;
+    top: -41px;
+    left: -222%;
+  }
+  .githublogo {
+    content: url(https://api.iconify.design/bx:bxl-github.svg?color=%23FFFFFF&width=50px&height=50px);
+    vertical-align: -0.125em;
+    position: relative;
+    top: 23px;
+    left: 28%;
+  }
+}
+@media only screen and (min-width: 1224px) {
+  .link1 {
+    font-size: 35px;
+    margin-top: 4px;
+  }
+  .link2 {
+    font-size: 35px;
+    margin-top: 4px;
+  }
+  img.logo {
+    position: relative;
+    top: -41px;
+    left: -253%;
+  }
+  .linkedinlogo {
+    position: relative;
+    top: 23px;
+    left: 55%;
+  }
+  .githublogo {
+    position: relative;
+    top: 23px;
+    left: 28%;
+  }
+}
+
+@media only screen and (min-width: 1668px) {
+  .link1 {
+    font-size: 35px;
+  }
+  .link2 {
+    font-size: 35px;
+  }
+}
+
+@media only screen and (min-width: 1824px) {
+  .link1 {
+    font-size: 35px;
+    margin-left: 1rem;
+  }
+  .link2 {
+    font-size: 35px;
+    margin-left: 1rem;
+  }
+
+  img.logo {
+    position: relative;
+    top: -38px;
+    left: -346%;
+  }
+  .githublogo {
+    position: relative;
+    top: 21px;
+    left: 29%;
+  }
+  .linkedinlogo {
+    position: relative;
+    top: 21px;
+    left: 57%;
+  }
+}

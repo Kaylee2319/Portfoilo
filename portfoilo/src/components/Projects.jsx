@@ -1,18 +1,36 @@
-import React,  { useState } from 'react'
+// import React,  { useState } from 'react'
 
 
-const Projects = () => {
+// const Projects = () => {
 
-    const [show, setShow]=useState(true)
+//     const [show, setShow]=useState(true)
 
-    const Toggle = () => {
-    if (show === true){
-    setShow(false)}
-    else setShow(true)} 
-    return (
-        <div>
-            <h1 className='Heading4'>Projects</h1>
-        </div>
-    )}
+//     const Toggle = () => {
+//     if (show === true){
+//     setShow(false)}
+//     else setShow(true)} 
+//     return (
+//         <div>
+//             <h1 className='Heading4'>Projects</h1>
+//                 <button button className='ProjectHeading1'onClick={Toggle}>Design</button>
+//                 <button className='ProjectHeading2' onClick={Toggle}>Development</button>
+//                 <span></span>
+//                  {!show ? (
+//                     <p className='DevelopmentDescription' >Form blueprints to a working website. 
+//                         Taking Html to structure our webpage with a titles and  paragraphs. 
+//                         Using CSS to style our webpage making it more dynamic and adding style to it.
+//                         Using Javascript and its React library  to enhance user experience and speed the development 
+//                         by resuing components that have already being created. 
+//                     </p>) : (
+//                     <p className='DesignDescription'>
+//                     No matter the project at hand I always started with articulating our 
+//                     assumptions about a problem—what I know or think I know about that space , 
+//                     diving deep into the research creating our MVP to keep myself on track with 
+//                     the given time frame. Constantly seeking feedback from our targeted audience allowing.
+//                     Keep the user at the heart of the design. 
+//                     </p>) 
 
-export default Projects
+//                     }</div>
+//     )}
+
+// export default Projects

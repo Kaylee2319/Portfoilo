@@ -1,0 +1,110 @@
+.aboutMeSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: center;
+  margin-top: -3rem;
+}
+
+.Heading2 {
+  align-items: flex-start;
+  height: fit-content;
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 61px;
+  color: #00587a;
+  margin-left: -59rem;
+  padding: 4rem;
+}
+
+.Passage1 {
+  width: fit-content;
+  height: fit-content;
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 115%;
+  color: #4a4d50;
+  margin-left: -4rem;
+  margin-top: -5rem;
+}
+
+.Passage2 {
+  width: fit-content;
+  height: fit-content;
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 115%;
+  color: #4a4d50;
+  margin-top: -2rem;
+}
+
+.iconify {
+  color: #27292c;
+}
+
+@media only screen and (min-width: 1024px) {
+  .aboutMeSection {
+    margin-top: -1rem;
+  }
+  .Heading2 {
+    margin-left: -40rem;
+  }
+  .Passage1 {
+    font-size: 20px;
+    width: 54rem;
+    line-height: 25px;
+    margin-left: 0rem;
+    margin-bottom: 23px;
+  }
+  .Passage2 {
+    font-size: 20px;
+    width: 54rem;
+    line-height: 25px;
+    margin-top: -31px;
+    line-height: 23px;
+  }
+}
+@media only screen and (min-width: 1224px) {
+  .Passage1 {
+    font-size: 23px;
+  }
+  .Passage2 {
+    font-size: 23px;
+  }
+}
+@media only screen and (min-width: 1668px) {
+  .Passage1 {
+    margin-left: -5rem;
+    font-size: 23px;
+  }
+  .Passage2 {
+    font-size: 23px;
+  }
+}
+
+@media only screen and (min-width: 1824px) {
+  .aboutMeSection {
+    margin-top: -3rem;
+  }
+  .Heading2 {
+    margin-left: -69rem;
+  }
+  .Passage1 {
+    margin-left: -5rem;
+    font-size: 23px;
+    line-height: 25px;
+    width: fit-content;
+  }
+
+  .Passage2 {
+    font-size: 23px;
+    line-height: 25px;
+    width: fit-content;
+  }
+}

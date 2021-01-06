@@ -1,5 +1,5 @@
 import React,  { useState } from 'react'
-import SkillCards from '../components/SkillCards'
+// import SkillCards from '../components/SkillCards'
 
 
 const AboutMe = () => {
@@ -20,7 +20,7 @@ const AboutMe = () => {
 return (
     <div className='aboutMeSection'>
         <h1 className='Heading2'>AboutMe</h1>
-            <p className='Passage1'>I’m a passionate Navy Veteran trained in both full stack development and UX/UI design.<br/><br/>
+            <p className='Passage1'>I’m a passionate Navy Veteran trained in both full stack development and UX/UI design.<br/>
                 Traveling with the Navy for four years took me outside my comfort zone and gave me compassion for the state of the world.<br/>
                 Through that experience, I discovered I wanted to contribute to making this world a better place.<br/><br/></p>
                 {!show ? ( <p className='Passage2'>
@@ -38,7 +38,7 @@ return (
                 ) : (null)
 }
                 <a  onClick={Toggle}><span class="iconify" data-icon="bi:arrow-down-circle-fill" data-inline="false" data-width="50" data-height="50"></span></a>
-                    <SkillCards />
+                    {/* <SkillCards /> */}
     </div>
 )}
 export default AboutMe
