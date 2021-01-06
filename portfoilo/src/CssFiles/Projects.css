@@ -1,8 +1,8 @@
+.Project-sec {
+  display: flex;
+  height: 20rem;
+}
 .Heading4 {
-  position: relative;
-  height: 48px;
-  left: 144px;
-  top: 170px;
   font-family: Proxima Nova;
   font-style: normal;
   font-weight: bold;
@@ -14,9 +14,6 @@
 }
 
 .ProjectHeading1 {
-  position: relative;
-  left: 289px;
-  top: 149px;
   font-family: Proxima Nova;
   font-style: normal;
   font-weight: bold;
@@ -29,9 +26,6 @@
   margin-right: -200px;
 }
 .ProjectHeading2 {
-  position: relative;
-  left: 950px;
-  top: 149px;
   font-family: Proxima Nova;
   font-style: normal;
   font-weight: bold;
@@ -44,36 +38,72 @@
   margin-right: -200px;
 }
 .DevelopmentDescription {
-  position: relative;
-  width: 1156px;
-  left: 183px;
-  top: 200px;
   font-family: Proxima Nova;
   font-style: normal;
   font-weight: 600;
-  font-size: 22px;
-  line-height: 173%;
+  font-size: 23px;
+  line-height: 2rem;
   color: #4a4d50;
+  align-self: flex-end;
 }
 .DesignDescription {
-  position: relative;
-  width: 1156px;
-  left: 183px;
-  top: 200px;
   font-family: Proxima Nova;
   font-style: normal;
   font-weight: 600;
-  font-size: 22px;
-  line-height: 173%;
+  font-size: 23px;
+  line-height: 2rem;
   color: #4a4d50;
+  align-self: flex-end;
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-device-width: 412px) and (max-device-width: 767px) {
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
 }
 @media only screen and (min-width: 1224px) {
 }
 @media only screen and (min-width: 1668px) {
+  .Heading4 {
+    margin-top: 5rem;
+    margin-left: 15rem;
+  }
+
+  .ProjectHeading1 {
+    margin-left: 8rem;
+    margin-top: 12rem;
+  }
+  .ProjectHeading2 {
+    margin-left: 50rem;
+    margin-top: 12rem;
+  }
+  .DevelopmentDescription {
+    width: 75rem;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 10rem;
+  }
+  .DesignDescription {
+    width: 75rem;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 10rem;
+  }
 }
 
 @media only screen and (min-width: 1824px) {
+  .Heading4 {
+    margin-left: 12rem;
+  }
+  .ProjectHeading1 {
+    margin-left: 18rem;
+    margin-top: 12rem;
+  }
+  .ProjectHeading2 {
+  }
+  .DesignDescription {
+    width: 79rem;
+  }
+  .DevelopmentDescription {
+    width: 79rem;
+  }
 }

@@ -22,8 +22,11 @@
   margin-top: -49rem;
   margin-bottom: 33rem;
 }
-
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-device-width: 412px) and (max-device-width: 767px) {
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   .Heading1 {
     margin-right: 17rem;
     margin-top: -29rem;

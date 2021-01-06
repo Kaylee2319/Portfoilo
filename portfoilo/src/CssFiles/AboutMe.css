@@ -47,8 +47,11 @@
 .iconify {
   color: #27292c;
 }
-
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-device-width: 412px) and (max-device-width: 767px) {
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   .aboutMeSection {
     margin-top: -1rem;
   }
@@ -101,18 +104,19 @@
     margin-top: -3rem;
   }
   .Heading2 {
-    margin-left: -69rem;
+    margin-top: 4rem;
+    margin-left: -80rem;
   }
   .Passage1 {
-    margin-left: -5rem;
+    margin-left: 0rem;
     font-size: 23px;
     line-height: 25px;
-    width: fit-content;
+    width: 79rem;
   }
 
   .Passage2 {
     font-size: 23px;
     line-height: 25px;
-    width: fit-content;
+    width: 79rem;
   }
 }

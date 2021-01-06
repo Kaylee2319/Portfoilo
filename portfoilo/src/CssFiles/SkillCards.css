@@ -112,8 +112,11 @@ p.cardtitle3 {
   color: #f1f6f9;
   margin-left: 6rem;
 }
-
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-device-width: 412px) and (max-device-width: 767px) {
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   .Heading3 {
     margin-inline-start: 97px;
   }
@@ -191,6 +194,7 @@ p.cardtitle3 {
   .skillcardgroup {
     display: flex;
     width: 90rem;
+    height: fit-content;
     flex-direction: row;
     justify-content: space-evenly;
     margin-top: 1rem;

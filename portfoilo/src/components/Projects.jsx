@@ -12,10 +12,12 @@ const Projects = () => {
              setShowss(true)}
         return (
             <div>
+            <div className='Project-sec'>
                 <h1 className='Heading4'>Projects</h1>
                     <button button className='ProjectHeading1'onClick={Toggle}>Design</button>
                     <button className='ProjectHeading2' onClick={Toggle1}>Development</button>
-                    <span></span>
+                    </div>
+                    <div>
                      {show ? (
                         <p className='DevelopmentDescription' >Form blueprints to a working website. 
                             Taking Html to structure our webpage with a titles and  paragraphs. 
@@ -33,6 +35,7 @@ const Projects = () => {
                         </p>
                            ) : (
                             null)}
+                        </div>
                         </div>
         )}
 
