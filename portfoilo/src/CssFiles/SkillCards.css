@@ -1,0 +1,140 @@
+.Heading3 {
+  position: relative;
+  width: 75px;
+  margin-right: -200px;
+  height: 61px;
+  right: -537px;
+  top: -21px;
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 61px;
+  color: #394867;
+}
+.skillcardgroup {
+  display: flex;
+  width: 1158px;
+  height: 112px;
+  justify-content: space-evenly;
+}
+
+.skillcard1 {
+  background: linear-gradient(180.75deg, #244555 42.03%, #27292c 139.12%);
+  border-radius: 15px;
+  display: inline;
+  width: 20rem;
+}
+
+.skills1 {
+  list-style: none;
+  /* position: absolute; */
+  width: 200px;
+  height: 24.94px;
+  left: 21px;
+  bottom: 273px;
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 50px;
+  color: #ffffff;
+  display: none;
+}
+
+.skillcard1:hover {
+  width: 329px;
+  height: 400px;
+}
+.skillcard1:hover .skills1 {
+  display: inline;
+}
+
+p.cardtitle1 {
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 37px;
+  color: #f1f6f9;
+  margin-left: 6rem;
+}
+
+.skillcard2 {
+  background: linear-gradient(180.75deg, #244555 42.03%, #27292c 139.12%);
+  border-radius: 15px;
+  width: 20rem;
+}
+
+.skills2 {
+  list-style: none;
+  /* position: absolute;
+  width: 200px;
+  height: 24.94px;
+  left: 21px;
+  bottom: 273px; */
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 50px;
+  color: #ffffff;
+  display: none;
+}
+.skillcard2:hover {
+  width: 329px;
+  height: 400px;
+  display: inline;
+}
+.skillcard2:hover .skills2 {
+  display: inline;
+}
+
+p.cardtitle2 {
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 37px;
+  color: #f1f6f9;
+  margin-left: 7rem;
+}
+
+.skillcard3 {
+  background: linear-gradient(180.75deg, #244555 42.03%, #27292c 139.12%);
+  border-radius: 15px;
+  width: 20rem;
+}
+.skills3 {
+  list-style: none;
+  /* position: absolute;
+  width: 200px;
+  height: 24.94px;
+  left: 21px;
+  bottom: 273px; */
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 50px;
+  color: #ffffff;
+  display: none;
+}
+
+.skillcard3:hover {
+  width: 329px;
+  height: 400px;
+}
+.skillcard3:hover .skills3 {
+  display: inline;
+}
+
+p.cardtitle3 {
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 37px;
+  color: #f1f6f9;
+  margin-left: 6rem;
+}

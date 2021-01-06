@@ -6,6 +6,7 @@ import './App.css';
 import './CssFiles/Nav.css'
 import './CssFiles/HeroBanner.css'
 import './CssFiles/AboutMe.css'
+import './CssFiles/SkillCards.css'
 
 function App() {
   return (
