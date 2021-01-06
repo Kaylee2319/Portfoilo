@@ -1,10 +1,7 @@
 .Heading3 {
-  position: relative;
-  width: 75px;
+  margin-inline-start: 97px;
   margin-right: -200px;
   height: 61px;
-  right: -537px;
-  top: -21px;
   font-family: Proxima Nova;
   font-style: normal;
   font-weight: bold;
@@ -13,41 +10,37 @@
   color: #394867;
 }
 .skillcardgroup {
+  margin-top: -2rem;
+  height: 81rem;
   display: flex;
-  width: 1158px;
-  height: 112px;
+  flex-direction: column;
+  width: fit-content;
+
   justify-content: space-evenly;
 }
 
 .skillcard1 {
+  height: 25rem;
   background: linear-gradient(180.75deg, #244555 42.03%, #27292c 139.12%);
   border-radius: 15px;
   display: inline;
   width: 20rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .skills1 {
   list-style: none;
-  /* position: absolute; */
+  margin-top: -15px;
   width: 200px;
   height: 24.94px;
-  left: 21px;
-  bottom: 273px;
   font-family: Proxima Nova;
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
   line-height: 50px;
   color: #ffffff;
-  display: none;
-}
-
-.skillcard1:hover {
-  width: 329px;
-  height: 400px;
-}
-.skillcard1:hover .skills1 {
-  display: inline;
+  display: block;
 }
 
 p.cardtitle1 {
@@ -64,30 +57,20 @@ p.cardtitle1 {
   background: linear-gradient(180.75deg, #244555 42.03%, #27292c 139.12%);
   border-radius: 15px;
   width: 20rem;
+  height: 25rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .skills2 {
   list-style: none;
-  /* position: absolute;
-  width: 200px;
-  height: 24.94px;
-  left: 21px;
-  bottom: 273px; */
   font-family: Proxima Nova;
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
   line-height: 50px;
   color: #ffffff;
-  display: none;
-}
-.skillcard2:hover {
-  width: 329px;
-  height: 400px;
-  display: inline;
-}
-.skillcard2:hover .skills2 {
-  display: inline;
+  margin-top: -15px;
 }
 
 p.cardtitle2 {
@@ -104,29 +87,20 @@ p.cardtitle2 {
   background: linear-gradient(180.75deg, #244555 42.03%, #27292c 139.12%);
   border-radius: 15px;
   width: 20rem;
+  height: 25rem;
+  display: flex;
+  flex-direction: column;
 }
 .skills3 {
   list-style: none;
-  /* position: absolute;
-  width: 200px;
-  height: 24.94px;
-  left: 21px;
-  bottom: 273px; */
+  margin-top: -15px;
   font-family: Proxima Nova;
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
   line-height: 50px;
   color: #ffffff;
-  display: none;
-}
-
-.skillcard3:hover {
-  width: 329px;
-  height: 400px;
-}
-.skillcard3:hover .skills3 {
-  display: inline;
+  display: block;
 }
 
 p.cardtitle3 {
@@ -137,4 +111,169 @@ p.cardtitle3 {
   line-height: 37px;
   color: #f1f6f9;
   margin-left: 6rem;
+}
+
+@media only screen and (min-width: 1024px) {
+  .Heading3 {
+    margin-inline-start: 97px;
+  }
+  .skillcardgroup {
+    margin-top: -2rem;
+    flex-direction: column;
+    height: 81rem;
+  }
+  .skillcard1 {
+    height: 25rem;
+  }
+
+  .skills1 {
+    display: block;
+  }
+  p.cardtitle1 {
+  }
+  .skillcard2 {
+    height: 25rem;
+  }
+  .skills2 {
+    display: block;
+  }
+
+  p.cardtitle2 {
+  }
+  .skillcard3 {
+    height: 25rem;
+  }
+  .skills3 {
+    display: block;
+  }
+
+  p.cardtitle3 {
+  }
+}
+@media only screen and (min-width: 1224px) {
+  .Heading3 {
+  }
+  .skillcardgroup {
+  }
+  .skillcard1 {
+  }
+  .skillcard1:hover {
+  }
+  .skillcard1:hover .skills1 {
+  }
+  p.cardtitle1 {
+  }
+  .skillcard2 {
+  }
+  .skills2 {
+  }
+  .skillcard2:hover {
+  }
+  .skillcard2:hover .skills2 p.cardtitle2 {
+  }
+  .skillcard3 {
+  }
+  .skills3 {
+  }
+  .skillcard3:hover {
+  }
+  .skillcard3:hover .skills3 {
+  }
+  p.cardtitle3 {
+  }
+}
+@media only screen and (min-width: 1668px) {
+  .Heading3 {
+    width: fit-content;
+    margin-inline-start: 40rem;
+    margin-top: 4rem;
+  }
+  .skillcardgroup {
+    display: flex;
+    width: 90rem;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+  }
+  .skillcard1 {
+    height: 7rem;
+    width: 20rem;
+  }
+  .skills1 {
+    display: none;
+  }
+  .skillcard1:hover {
+    width: 329px;
+    height: 400px;
+  }
+  .skillcard1:hover .skills1 {
+    display: block;
+  }
+  p.cardtitle1 {
+  }
+  .skillcard2 {
+    height: 7rem;
+    width: 20rem;
+  }
+  .skills2 {
+    display: none;
+  }
+  .skillcard2:hover {
+    width: 329px;
+    height: 400px;
+  }
+  .skillcard2:hover .skills2 {
+    display: inline;
+  }
+  p.cardtitle2 {
+  }
+  .skillcard3 {
+    height: 7rem;
+    width: 20rem;
+  }
+  .skills3 {
+    display: none;
+  }
+  .skillcard3:hover {
+    width: 329px;
+    height: 400px;
+  }
+  .skillcard3:hover .skills3 {
+    display: inline;
+  }
+  p.cardtitle3 {
+  }
+}
+
+@media only screen and (min-width: 1824px) {
+  .Heading3 {
+  }
+  .skillcardgroup {
+  }
+  .skillcard1 {
+  }
+  .skillcard1:hover {
+  }
+  .skillcard1:hover .skills1 {
+  }
+  p.cardtitle1 {
+  }
+  .skillcard2 {
+  }
+  .skills2 {
+  }
+  .skillcard2:hover {
+  }
+  .skillcard2:hover .skills2 p.cardtitle2 {
+  }
+  .skillcard3 {
+  }
+  .skills3 {
+  }
+  .skillcard3:hover {
+  }
+  .skillcard3:hover .skills3 {
+  }
+  p.cardtitle3 {
+  }
 }

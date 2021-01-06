@@ -79,12 +79,20 @@
   }
 }
 @media only screen and (min-width: 1668px) {
+  .Heading2 {
+    margin-left: -60rem;
+  }
   .Passage1 {
-    margin-left: -5rem;
+    width: 74rem;
+    margin-left: 0rem;
     font-size: 23px;
+    line-height: 2rem;
   }
   .Passage2 {
     font-size: 23px;
+    width: 74rem;
+    margin-left: 0rem;
+    line-height: 2rem;
   }
 }
 

@@ -1,0 +1,79 @@
+.Heading4 {
+  position: relative;
+  height: 48px;
+  left: 144px;
+  top: 170px;
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 61px;
+  color: #00587a;
+  width: 75px;
+  margin-right: -200px;
+}
+
+.ProjectHeading1 {
+  position: relative;
+  left: 289px;
+  top: 149px;
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 61px;
+  color: #394867;
+  border: none;
+  background: none;
+  width: 75px;
+  margin-right: -200px;
+}
+.ProjectHeading2 {
+  position: relative;
+  left: 950px;
+  top: 149px;
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 61px;
+  color: #394867;
+  border: none;
+  background: none;
+  width: 75px;
+  margin-right: -200px;
+}
+.DevelopmentDescription {
+  position: relative;
+  width: 1156px;
+  left: 183px;
+  top: 200px;
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 173%;
+  color: #4a4d50;
+}
+.DesignDescription {
+  position: relative;
+  width: 1156px;
+  left: 183px;
+  top: 200px;
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 173%;
+  color: #4a4d50;
+}
+
+@media only screen and (min-width: 1024px) {
+}
+@media only screen and (min-width: 1224px) {
+}
+@media only screen and (min-width: 1668px) {
+}
+
+@media only screen and (min-width: 1824px) {
+}

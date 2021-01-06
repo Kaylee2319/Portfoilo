@@ -87,8 +87,8 @@ img.logo {
   }
   .linkedinlogo {
     position: relative;
-    top: -41px;
-    left: -222%;
+    left: 55%;
+    top: 22px;
   }
   .githublogo {
     content: url(https://api.iconify.design/bx:bxl-github.svg?color=%23FFFFFF&width=50px&height=50px);
@@ -130,6 +130,22 @@ img.logo {
   }
   .link2 {
     font-size: 35px;
+  }
+  img.logo {
+    position: relative;
+    top: -41px;
+    left: -27rem;
+  }
+  .linkedinlogo {
+    position: relative;
+    top: 23px;
+    left: 56%;
+  }
+
+  .githublogo {
+    position: relative;
+    top: 23px;
+    left: 29%;
   }
 }
 
