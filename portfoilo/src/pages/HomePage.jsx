@@ -12,8 +12,8 @@ const HomePage = () => {
 Web Designer &lt;h1&gt;
  </h1 >
  </div>
- <AboutMe />
- <Projects />
+ {/* <AboutMe /> */}
+ {/* <Projects /> */}
     </div>
   );
 };

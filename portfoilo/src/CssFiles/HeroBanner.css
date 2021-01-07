@@ -2,94 +2,124 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+  margin-left: 1.53rem;
+  width: 20rem;
 }
 
 .hero {
-  width: 140vw;
-  height: -moz-fit-content;
-  height: fit-content;
-  margin-top: 95px;
-  margin-left: 9rem;
+  width: auto;
+  height: 12.7rem;
 }
-/* .hero {
-  width: 100vw;
-  height: fit-content;
-  margin-top: 5rem;
-} */
+
 .Heading1 {
-  /* align-items: flex-start; */
-  width: -moz-fit-content;
   width: fit-content;
   font-family: Proxima Nova;
   font-style: normal;
   font-weight: bold;
-  font-size: 30px;
-  line-height: 46px;
+  font-size: 25px;
+  line-height: 32px;
   color: #ffffff;
   margin-right: 0rem;
-  margin-top: -17rem;
-  margin-left: -6rem;
-  margin-bottom: 1;
+  margin-top: -11rem;
+  margin-left: -7rem;
 }
-/* .Heading1 {
-  align-items: flex-start;
-  width: fit-content;
-  font-family: Proxima Nova;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 70px;
-  line-height: 85px;
-  color: #ffffff;
-  margin-right: 79rem;
-  margin-top: -49rem;
-  margin-bottom: 33rem;
-} */
-@media only screen and (min-device-width: 412px) and (max-device-width: 767px) {
-}
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-}
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+
+@media only screen and (min-device-width: 414px) {
+  .Main-Sec {
+    margin-left: 47px;
+  }
+  .hero {
+    height: 13.8rem;
+  }
   .Heading1 {
-    margin-right: 17rem;
-    margin-top: -29rem;
+    margin-top: -12rem;
+    margin-left: -8rem;
+  }
+}
+
+@media only screen and (min-device-width: 768px) {
+  .Main-Sec {
+    margin-left: 14rem;
+    margin-top: -95px;
+  }
+  .hero {
+    height: 25.6em;
+    margin-top: 5.8rem;
+  }
+  .Heading1 {
+    margin-right: 15rem;
+    margin-top: -23rem;
     margin-bottom: 9rem;
+    font-size: 50px;
+    width: 317px;
+    line-height: 62px;
+  }
+}
+
+@media only screen and (max-device-width: 1024px) {
+  .Main-Sec {
+    margin-left: 22rem;
+  }
+  .Heading1 {
+    margin-right: 9rem;
+    margin-top: -29rem;
+    font-size: 65px;
+    width: 597px;
+    line-height: 82px;
   }
 
   .hero {
-    width: 100vw;
-    height: -moz-fit-content;
-    height: fit-content;
-    margin-top: 95px;
+    height: 34.1em;
   }
 }
 
 @media only screen and (min-width: 1224px) {
-  .Heading1 {
-    margin-right: 36rem;
-    margin-top: -34rem;
-    margin-bottom: 18rem;
-    font-size: 58px;
+  .Main-Sec {
+    margin-left: 22rem;
   }
-  .aboutMeSection {
-    margin-top: -5rem;
+  .Heading1 {
+    margin-right: 3rem;
+    margin-top: -38rem;
+    margin-bottom: 9rem;
+    font-size: 75px;
+    width: 717px;
+    line-height: 89px;
   }
 }
+.hero {
+  height: 47.456em;
+}
 @media only screen and (min-width: 1668px) {
+  .Main-Sec {
+    margin-left: 42rem;
+  }
+
+  .hero {
+    height: 55.599em;
+  }
   .Heading1 {
-    margin-right: 47rem;
-    margin-top: -43rem;
-    margin-bottom: 26rem;
-    font-size: 80px;
+    margin-right: 28rem;
+    margin-top: -42rem;
+    margin-bottom: 9rem;
+    font-size: 91px;
+    width: 830px;
+    line-height: 100px;
   }
 }
 @media only screen and (min-width: 1824px) {
-  .Heading1 {
-    margin-right: 55rem;
-    margin-top: -48rem;
-    margin-bottom: 30rem;
+  .Main-Sec {
+    margin-left: 45rem;
   }
 
-  .aboutMeSection {
-    margin-top: 30rem;
+  .hero {
+    height: 62.9em;
+  }
+  .Heading1 {
+    margin-right: 25rem;
+    margin-top: -49rem;
+    margin-bottom: 9rem;
+    font-size: 110px;
+    width: 1030px;
+    line-height: 118px;
   }
 }

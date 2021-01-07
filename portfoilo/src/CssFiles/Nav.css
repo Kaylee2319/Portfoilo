@@ -1,242 +1,211 @@
-/*  css code before the size down
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 .navbackground {
-  position: fixed;
-  display: flexbox;
+  display: flex;
   width: 100vw;
-  height: 95px;
-  left: 0%;
-  right: 0%;
-  top: 0%;
-  bottom: -1.05%;
+  height: 75px;
   background: linear-gradient(180.75deg, #244555 42.03%, #27292c 139.12%);
-  z-index: 3;
-} */
-.navbackground {
-  position: fixed;
-  display: flexbox;
-  width: 138vw;
-  height: 95px;
-  left: 0%;
-  right: 0%;
-  top: 0%;
-  bottom: -1.05%;
-  background: linear-gradient(180.75deg, #244555 42.03%, #27292c 139.12%);
-  z-index: 3;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
 }
-
-ul.nav-right {
-  list-style: none;
+.logo {
+  height: 6rem;
+  width: auto;
+  margin-left: -1.5rem;
+}
+.nav-right {
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: -1rem;
+}
+.nav-left {
   display: flex;
   justify-content: space-evenly;
 }
-
-ul.nav-left {
-  list-style: none;
-  display: flex;
-  justify-content: space-evenly;
-  position: relative;
-  bottom: 184%;
-}
-
 .link1 {
-  position: relative;
-  height: -moz-fit-content;
-  height: fit-content;
-  left: -15.26%;
-  top: 11px;
-  font-family: Proxima Nova;
+  font-family: "Lato", sans-serif;
   font-weight: bold;
-  font-size: 22px;
-  line-height: 34px;
+  font-size: 13px;
   color: #ffffff;
+  margin-right: 10px;
 }
-/* .link1 css code before the size down{
-  position: relative;
-  height: fit-content;
-  left: -19.26%;
-  top: 11px;
-  font-family: Proxima Nova;
-  font-weight: bold;
-  font-size: 25px;
-  line-height: 34px;
-  color: #ffffff;
-} */
-
-img.logo {
-  position: relative;
-  top: -41px;
-  left: -97%;
-}
-/* img.logo link1 css code before the size down{
-  position: relative;
-  top: -41px;
-  left: -326%;
-} */
 .link2 {
-  position: relative;
-  height: -moz-fit-content;
-  height: fit-content;
-  left: -22.76%;
-  top: 11px;
-  bottom: 40%;
-  font-family: Proxima Nova;
+  font-family: "Lato", sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 22px;
-  line-height: 34px;
+  font-size: 13px;
   color: #ffffff;
 }
-/* .link2 css code before the size down{
-  position: relative;
-  height: fit-content;
-  left: -35.76%;
-  top: 11px;
-  bottom: 40%;
-  font-family: Proxima Nova;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 25px;
-  line-height: 34px;
-  color: #ffffff;
-} */
-
-/* .linkedinlogo {
-  content: url(https://api.iconify.design/brandico:linkedin-rect.svg?color=%23FFFFFF&width=40px&height=40px);
-  vertical-align: -0.125em;
-  position: relative;
-  top: 23px;
-  left: 57%;
-} */
 .linkedinlogo {
   content: url(https://api.iconify.design/brandico:linkedin-rect.svg?color=%23FFFFFF&width=40px&height=40px);
-  vertical-align: -0.125em;
-  position: relative;
-  top: 17px;
-  left: 47%;
+  height: 1.5rem;
 }
-
-/* .githublogo {
-  content: url("https://api.iconify.design/bx:bxl-github.svg?color=%23FFFFFF&width=50px&height=50px");
-  vertical-align: -0.125em;
-  position: relative;
-  top: 23px;
-  left: 29%;
-} */
-
 .githublogo {
   content: url(https://api.iconify.design/bx:bxl-github.svg?color=%23FFFFFF&width=50px&height=50px);
-  vertical-align: -0.125em;
-  position: relative;
-  top: 17px;
-  left: 25%;
+  height: 2rem;
+  margin-top: -0.25rem;
+  margin-left: 10px;
+  margin-right: -1rem;
+}
+@media only screen and (min-device-width: 768px) {
+  .navbackground {
+    height: 85px;
+  }
+  .logo {
+    height: 7rem;
+    width: auto;
+  }
+  .link1 {
+    font-size: 20px;
+  }
+  .link2 {
+    font-size: 20px;
+    margin-left: 1rem;
+  }
+  .linkedinlogo {
+    height: 2rem;
+    margin-left: 4rem;
+    margin-right: 1rem;
+  }
+  .githublogo {
+    height: 2.5rem;
+    margin-top: -0.25rem;
+  }
+  .nav-right {
+    margin-left: -6rem;
+  }
+  .nav-left {
+    margin-right: -6rem;
+  }
 }
 @media only screen and (min-width: 1024px) {
+  .navbackground {
+    height: 85px;
+  }
+  .logo {
+    height: 7rem;
+    width: auto;
+    margin-left: -1.5rem;
+  }
   .link1 {
-    font-size: 30px;
-    margin-left: 3rem;
+    font-size: 20px;
   }
   .link2 {
-    font-size: 30px;
-    margin-left: 5rem;
-  }
-  img.logo {
-    position: relative;
-    top: -41px;
-    left: -203%;
+    font-size: 20px;
+    margin-left: 1rem;
   }
   .linkedinlogo {
-    position: relative;
-    left: 55%;
-    top: 22px;
+    height: 2rem;
+    margin-left: 4rem;
+    margin-right: 1rem;
   }
   .githublogo {
-    content: url(https://api.iconify.design/bx:bxl-github.svg?color=%23FFFFFF&width=50px&height=50px);
-    vertical-align: -0.125em;
-    position: relative;
-    top: 23px;
-    left: 28%;
+    height: 2.5rem;
+    margin-top: -0.25rem;
   }
-}
-@media only screen and (min-device-width: 412px) and (max-device-width: 767px) {
-}
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-}
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .nav-right {
+    margin-left: -6rem;
+  }
+  .nav-left {
+    margin-right: -6rem;
+  }
 }
 @media only screen and (min-width: 1224px) {
+  .navbackground {
+    justify-content: space-around;
+    height: 95px;
+  }
+  .logo {
+    height: 8rem;
+    width: auto;
+    margin-left: -1.5rem;
+  }
   .link1 {
-    font-size: 35px;
-    margin-top: 4px;
+    font-size: 25px;
   }
   .link2 {
-    font-size: 35px;
-    margin-top: 4px;
-  }
-  img.logo {
-    position: relative;
-    top: -41px;
-    left: -253%;
+    font-size: 25px;
+    margin-left: 2rem;
   }
   .linkedinlogo {
-    position: relative;
-    top: 23px;
-    left: 55%;
+    height: 2.5rem;
+    margin-left: 4rem;
+    margin-right: 2rem;
   }
   .githublogo {
-    position: relative;
-    top: 23px;
-    left: 28%;
+    height: 3rem;
+    margin-top: -0.25rem;
+  }
+  .nav-right {
+    margin-left: -6rem;
+  }
+  .nav-left {
+    margin-right: -6rem;
   }
 }
-
 @media only screen and (min-width: 1668px) {
+  .navbackground {
+    justify-content: space-around;
+    height: 95px;
+  }
+  .logo {
+    height: 8rem;
+    width: auto;
+    margin-left: -1.5rem;
+  }
   .link1 {
-    font-size: 35px;
+    font-size: 25px;
   }
   .link2 {
-    font-size: 35px;
-  }
-  img.logo {
-    position: relative;
-    top: -41px;
-    left: -27rem;
+    font-size: 25px;
+    margin-left: 2rem;
   }
   .linkedinlogo {
-    position: relative;
-    top: 23px;
-    left: 56%;
+    height: 2.5rem;
+    margin-left: 4rem;
+    margin-right: 2rem;
   }
-
   .githublogo {
-    position: relative;
-    top: 23px;
-    left: 29%;
+    height: 3rem;
+    margin-top: -0.25rem;
+  }
+  .nav-right {
+    margin-left: -10rem;
+  }
+  .nav-left {
+    margin-right: -10rem;
   }
 }
-
 @media only screen and (min-width: 1824px) {
+  .navbackground {
+    justify-content: space-around;
+    height: 100px;
+  }
+  .logo {
+    height: 8.5rem;
+    width: auto;
+    margin-left: -1.5rem;
+  }
   .link1 {
-    font-size: 35px;
-    margin-left: 1rem;
+    font-size: 28px;
   }
   .link2 {
-    font-size: 35px;
-    margin-left: 1rem;
-  }
-
-  img.logo {
-    position: relative;
-    top: -38px;
-    left: -346%;
-  }
-  .githublogo {
-    position: relative;
-    top: 21px;
-    left: 29%;
+    font-size: 28px;
+    margin-left: 2rem;
   }
   .linkedinlogo {
-    position: relative;
-    top: 21px;
-    left: 57%;
+    height: 2.5rem;
+    margin-left: 4rem;
+    margin-right: 2rem;
+  }
+  .githublogo {
+    height: 3rem;
+    margin-top: -0.25rem;
+  }
+  .nav-right {
+    margin-left: -10rem;
+  }
+  .nav-left {
+    margin-right: -10rem;
   }
 }
