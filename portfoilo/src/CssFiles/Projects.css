@@ -2,7 +2,7 @@
   display: flex;
   height: 20rem;
 }
-.Heading4 {
+/* .Heading4 {
   font-family: Proxima Nova;
   font-style: normal;
   font-weight: bold;
@@ -11,21 +11,50 @@
   color: #00587a;
   width: 75px;
   margin-right: -200px;
+} */
+
+.Heading4 {
+  font-family: Proxima Nova;
+  height: fit-content;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 61px;
+  color: #00587a;
+  margin-left: 2rem;
+  /* width: 75px; */
+  /* margin-right: -200px; */
 }
+
+/* .ProjectHeading1 {
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 61px;
+  color: #394867;
+  border: none;
+  background: none;
+  width: 75px;
+  margin-right: -200px;
+} */
 
 .ProjectHeading1 {
   font-family: Proxima Nova;
   font-style: normal;
   font-weight: bold;
-  font-size: 50px;
+  font-size: 35px;
   line-height: 61px;
   color: #394867;
   border: none;
   background: none;
-  width: 75px;
-  margin-right: -200px;
+  width: fit-content;
+  height: fit-content;
+  margin-top: 8rem;
+  margin-left: -10rem;
+  /* margin-right: -200px; */
 }
-.ProjectHeading2 {
+/* .ProjectHeading2 {
   font-family: Proxima Nova;
   font-style: normal;
   font-weight: bold;
@@ -36,7 +65,34 @@
   background: none;
   width: 75px;
   margin-right: -200px;
+} */
+
+.ProjectHeading2 {
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 61px;
+  color: #394867;
+  border: none;
+  background: none;
+  margin-left: 13rem;
+  width: fit-content;
+  height: fit-content;
+  margin-top: 8rem;
+  margin-left: 10rem;
 }
+
+/* .DevelopmentDescription {
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 2rem;
+  color: #4a4d50;
+  align-self: flex-end;
+} */
+
 .DevelopmentDescription {
   font-family: Proxima Nova;
   font-style: normal;
@@ -45,8 +101,11 @@
   line-height: 2rem;
   color: #4a4d50;
   align-self: flex-end;
+  margin-top: -6rem;
+  margin-left: 4rem;
+  width: 27rem;
 }
-.DesignDescription {
+/* .DesignDescription {
   font-family: Proxima Nova;
   font-style: normal;
   font-weight: 600;
@@ -54,6 +113,19 @@
   line-height: 2rem;
   color: #4a4d50;
   align-self: flex-end;
+} */
+
+.DesignDescription {
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 2rem;
+  color: #4a4d50;
+  margin-top: -6rem;
+  margin-left: 4rem;
+  width: 27rem;
+  /* align-self: flex-end; */
 }
 
 @media only screen and (min-device-width: 412px) and (max-device-width: 767px) {

@@ -1,7 +1,20 @@
+/*  css code before the size down
 .navbackground {
   position: fixed;
   display: flexbox;
   width: 100vw;
+  height: 95px;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: -1.05%;
+  background: linear-gradient(180.75deg, #244555 42.03%, #27292c 139.12%);
+  z-index: 3;
+} */
+.navbackground {
+  position: fixed;
+  display: flexbox;
+  width: 138vw;
   height: 95px;
   left: 0%;
   right: 0%;
@@ -27,6 +40,18 @@ ul.nav-left {
 
 .link1 {
   position: relative;
+  height: -moz-fit-content;
+  height: fit-content;
+  left: -15.26%;
+  top: 11px;
+  font-family: Proxima Nova;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 34px;
+  color: #ffffff;
+}
+/* .link1 css code before the size down{
+  position: relative;
   height: fit-content;
   left: -19.26%;
   top: 11px;
@@ -35,14 +60,33 @@ ul.nav-left {
   font-size: 25px;
   line-height: 34px;
   color: #ffffff;
-}
+} */
+
 img.logo {
   position: relative;
   top: -41px;
-  left: -326%;
+  left: -97%;
 }
-
+/* img.logo link1 css code before the size down{
+  position: relative;
+  top: -41px;
+  left: -326%;
+} */
 .link2 {
+  position: relative;
+  height: -moz-fit-content;
+  height: fit-content;
+  left: -22.76%;
+  top: 11px;
+  bottom: 40%;
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 34px;
+  color: #ffffff;
+}
+/* .link2 css code before the size down{
   position: relative;
   height: fit-content;
   left: -35.76%;
@@ -54,22 +98,37 @@ img.logo {
   font-size: 25px;
   line-height: 34px;
   color: #ffffff;
-}
+} */
 
-.linkedinlogo {
+/* .linkedinlogo {
   content: url(https://api.iconify.design/brandico:linkedin-rect.svg?color=%23FFFFFF&width=40px&height=40px);
   vertical-align: -0.125em;
   position: relative;
   top: 23px;
   left: 57%;
+} */
+.linkedinlogo {
+  content: url(https://api.iconify.design/brandico:linkedin-rect.svg?color=%23FFFFFF&width=40px&height=40px);
+  vertical-align: -0.125em;
+  position: relative;
+  top: 17px;
+  left: 47%;
 }
 
-.githublogo {
+/* .githublogo {
   content: url("https://api.iconify.design/bx:bxl-github.svg?color=%23FFFFFF&width=50px&height=50px");
   vertical-align: -0.125em;
   position: relative;
   top: 23px;
   left: 29%;
+} */
+
+.githublogo {
+  content: url(https://api.iconify.design/bx:bxl-github.svg?color=%23FFFFFF&width=50px&height=50px);
+  vertical-align: -0.125em;
+  position: relative;
+  top: 17px;
+  left: 25%;
 }
 @media only screen and (min-width: 1024px) {
   .link1 {

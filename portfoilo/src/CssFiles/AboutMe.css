@@ -1,12 +1,19 @@
-.aboutMeSection {
+/* .aboutMeSection {
   display: flex;
   flex-direction: column;
   justify-content: left;
   align-items: center;
   margin-top: -3rem;
+} */
+.aboutMeSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: center;
+  margin-top: 11rem;
+  margin-left: 9rem;
 }
-
-.Heading2 {
+/* .Heading2 {
   align-items: flex-start;
   height: fit-content;
   font-family: Proxima Nova;
@@ -17,9 +24,22 @@
   color: #00587a;
   margin-left: -59rem;
   padding: 4rem;
+} */
+.Heading2 {
+  align-items: flex-start;
+  height: -moz-fit-content;
+  height: fit-content;
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 41px;
+  line-height: 61px;
+  color: #00587a;
+  margin-left: -19rem;
+  margin-top: -2rem;
+  /* padding: 4rem; */
 }
-
-.Passage1 {
+/* .Passage1 {
   width: fit-content;
   height: fit-content;
   font-family: Proxima Nova;
@@ -30,9 +50,22 @@
   color: #4a4d50;
   margin-left: -4rem;
   margin-top: -5rem;
+} */
+.Passage1 {
+  width: -moz-fit-content;
+  width: 30rem;
+  height: -moz-fit-content;
+  height: fit-content;
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 115%;
+  color: #4a4d50;
+  margin-left: -1rem;
+  margin-top: -1rem;
 }
-
-.Passage2 {
+/* .Passage2 {
   width: fit-content;
   height: fit-content;
   font-family: Proxima Nova;
@@ -42,6 +75,22 @@
   line-height: 115%;
   color: #4a4d50;
   margin-top: -2rem;
+} */
+
+.Passage2 {
+  width: -moz-fit-content;
+  /* width: fit-content; */
+  width: 30rem;
+  height: -moz-fit-content;
+  height: fit-content;
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 115%;
+  color: #4a4d50;
+  margin-top: -2rem;
+  margin-left: -1rem;
 }
 
 .iconify {
