@@ -1,15 +1,3 @@
-/* .Heading3 {
-  margin-inline-start: 97px;
-  margin-right: -200px;
-  height: 61px;
-  font-family: Proxima Nova;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 50px;
-  line-height: 61px;
-  color: #394867;
-} */
-
 .Heading3 {
   height: fit-content;
   width: fit-content;
@@ -126,11 +114,11 @@ p.cardtitle3 {
   color: #f1f6f9;
   margin-left: 6rem;
 }
-@media only screen and (min-device-width: 412px) and (max-device-width: 767px) {
+@media only screen and (min-device-width: 412px) {
 }
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+@media only screen and (min-device-width: 768px) {
 }
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+@media only screen and (min-device-width: 1024px) {
   .Heading3 {
     margin-inline-start: 97px;
   }
