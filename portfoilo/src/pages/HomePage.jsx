@@ -1,6 +1,6 @@
 import React from 'react';
 import AboutMe from '../components/AboutMe'
-import Projects from '../components/Projects';
+// import Projects from '../components/Projects';
 import hero from '../images/hero.png'
 
 const HomePage = () => {
@@ -12,7 +12,7 @@ const HomePage = () => {
 Web Designer &lt;h1&gt;
  </h1 >
  </div>
- {/* <AboutMe /> */}
+ <AboutMe />
  {/* <Projects /> */}
     </div>
   );

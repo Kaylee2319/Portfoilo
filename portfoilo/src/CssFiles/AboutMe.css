@@ -9,7 +9,6 @@
 
 .Heading2 {
   align-items: flex-start;
-  height: -moz-fit-content;
   height: fit-content;
   font-family: Proxima Nova;
   font-style: normal;
@@ -19,13 +18,10 @@
   color: #00587a;
   margin-left: -19rem;
   margin-top: -2rem;
-  /* padding: 4rem; */
 }
 
 .Passage1 {
-  width: -moz-fit-content;
   width: 30rem;
-  height: -moz-fit-content;
   height: fit-content;
   font-family: Proxima Nova;
   font-style: normal;
@@ -39,7 +35,6 @@
 
 .Passage2 {
   width: -moz-fit-content;
-  /* width: fit-content; */
   width: 30rem;
   height: -moz-fit-content;
   height: fit-content;
@@ -56,11 +51,27 @@
 .iconify {
   color: #27292c;
 }
-@media only screen and (min-device-width: 412px) and (max-device-width: 767px) {
+@media only screen and (min-device-width: 412px) {
+  .aboutMeSection {
+  }
+  .Heading2 {
+  }
+  .Passage1 {
+  }
+  .Passage2 {
+  }
 }
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+@media only screen and (min-device-width: 768px) {
+  .aboutMeSection {
+  }
+  .Heading2 {
+  }
+  .Passage1 {
+  }
+  .Passage2 {
+  }
 }
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+@media only screen and (min-device-width: 1024px) {
   .aboutMeSection {
     margin-top: -1rem;
   }
