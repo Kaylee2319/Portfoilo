@@ -124,3 +124,19 @@
     line-height: 118px;
   }
 }
+
+@media only screen and (min-width: 2130px) {
+  .Main-Sec {
+    margin-left: 56rem;
+  }
+  .hero {
+    height: 71.52em;
+  }
+  .Heading1 {
+    margin-right: 37rem;
+    margin-top: -58rem;
+    font-size: 110px;
+    width: 1030px;
+    line-height: 10rem;
+  }
+}
