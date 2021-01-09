@@ -1,27 +1,78 @@
 .Main-Sec {
   display: flex;
   align-items: center;
-  flex-direction: column;
-  margin-left: 1.53rem;
-  width: 20rem;
+
+  justify-content: center;
+  height: 20rem;
+  width: 100vw;
+  background-color: #27292c;
+}
+.Top-compass {
+}
+.Html-compass {
+  color: #ffffff;
+  font-family: Proxima Nova;
+  opacity: 0.8;
+  align-self: self-start;
+  margin-left: -16rem;
+  margin-top: 2rem;
+}
+.Css-compass {
+  color: #ffffff;
+  font-family: Proxima Nova;
+  opacity: 0.8;
+  align-self: self-start;
+  margin-left: 3rem;
+  margin-top: 2rem;
+}
+.Bottom-compass {
 }
 
-.hero {
+.Js-compass {
+  color: #ffffff;
+  font-family: Proxima Nova;
+  opacity: 0.8;
+  align-self: flex-end;
+
+  margin-bottom: 2rem;
+}
+.React-compass {
+  color: #ffffff;
+  font-family: Proxima Nova;
+  opacity: 0.8;
+  align-self: flex-end;
+  margin-left: 3rem;
+  margin-bottom: 2rem;
+}
+
+.Middle-compass {
+}
+.Lean-compass {
+}
+.Design-compass {
+}
+.Stand-alone {
+}
+.compassRose {
   width: auto;
-  height: 12.7rem;
+  height: 15.7rem;
+  align-items: center;
+  opacity: 0.6;
+  margin-left: -45%;
 }
 
 .Heading1 {
-  width: fit-content;
+  width: 18rem;
   font-family: Proxima Nova;
   font-style: normal;
   font-weight: bold;
-  font-size: 25px;
-  line-height: 32px;
+  font-size: 23px;
+  line-height: 2rem;
   color: #ffffff;
   margin-right: 0rem;
-  margin-top: -11rem;
-  margin-left: -7rem;
+  margin-top: -1rem;
+  margin-left: 1rem;
+  z-index: 1;
 }
 
 @media only screen and (min-device-width: 414px) {
@@ -125,12 +176,12 @@
   }
 }
 
-@media only screen and (min-width: 2130px) {
+@media only screen and (min-width: 2500px) {
   .Main-Sec {
-    margin-left: 56rem;
+    margin-left: 70rem;
   }
   .hero {
-    height: 71.52em;
+    height: 85.3em;
   }
   .Heading1 {
     margin-right: 37rem;
