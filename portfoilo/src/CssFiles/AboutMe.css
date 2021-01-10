@@ -1,4 +1,4 @@
-/* .aboutMeSection {
+.aboutMeSection {
   display: flex;
   flex-direction: column;
   justify-content: left;
@@ -147,4 +147,4 @@
   .Passage2 {
     width: 90rem;
   }
-} */
+}

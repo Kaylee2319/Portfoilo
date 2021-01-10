@@ -1,8 +1,7 @@
-/* .Project-sec {
+.Project-sec {
   display: flex;
   height: 20rem;
 }
-
 
 .Heading4 {
   font-family: Proxima Nova;
@@ -13,10 +12,7 @@
   line-height: 61px;
   color: #00587a;
   margin-left: 2rem;
-
 }
-
-
 
 .ProjectHeading1 {
   font-family: Proxima Nova;
@@ -32,7 +28,6 @@
   margin-top: 8rem;
   margin-left: -10rem;
 }
-
 
 .ProjectHeading2 {
   font-family: Proxima Nova;
@@ -50,8 +45,6 @@
   margin-left: 10rem;
 }
 
-
-
 .DevelopmentDescription {
   font-family: Proxima Nova;
   font-style: normal;
@@ -65,7 +58,6 @@
   width: 27rem;
 }
 
-
 .DesignDescription {
   font-family: Proxima Nova;
   font-style: normal;
@@ -76,7 +68,6 @@
   margin-top: -6rem;
   margin-left: 4rem;
   width: 27rem;
-
 }
 
 @media only screen and (min-device-width: 412px) and (max-device-width: 767px) {
@@ -129,4 +120,4 @@
   .DevelopmentDescription {
     width: 79rem;
   }
-} */
+}

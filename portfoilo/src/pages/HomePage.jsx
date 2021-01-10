@@ -1,7 +1,7 @@
 import React from 'react';
 import CompassRose from '../images/CompassRose.svg'
-// import AboutMe from '../components/AboutMe'
-// import Projects from '../components/Projects';
+import AboutMe from '../components/AboutMe'
+import Projects from '../components/Projects';
 
 
 const HomePage = () => {
@@ -25,11 +25,11 @@ Web Designer &lt;h1&gt;
         <div className='Design-compass'>Design Thinking</div>
       </div>
       <div className='Stand-alone'>Design Thinking</div>
-
+      
       < img className='compassRose' src={CompassRose} alt='compassrose logo'/> 
   </div>
- {/* <AboutMe /> */}
- {/* <Projects /> */}
+ <AboutMe />
+ <Projects />
 </div>
   );
 };

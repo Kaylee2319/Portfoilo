@@ -1,66 +1,11 @@
 .Main-Sec {
   display: flex;
   align-items: center;
-
-  justify-content: center;
+  justify-content: space-evenly;
   height: 20rem;
   width: 100vw;
   background-color: #27292c;
 }
-.Top-compass {
-}
-.Html-compass {
-  color: #ffffff;
-  font-family: Proxima Nova;
-  opacity: 0.8;
-  align-self: self-start;
-  margin-left: -16rem;
-  margin-top: 2rem;
-}
-.Css-compass {
-  color: #ffffff;
-  font-family: Proxima Nova;
-  opacity: 0.8;
-  align-self: self-start;
-  margin-left: 3rem;
-  margin-top: 2rem;
-}
-.Bottom-compass {
-}
-
-.Js-compass {
-  color: #ffffff;
-  font-family: Proxima Nova;
-  opacity: 0.8;
-  align-self: flex-end;
-
-  margin-bottom: 2rem;
-}
-.React-compass {
-  color: #ffffff;
-  font-family: Proxima Nova;
-  opacity: 0.8;
-  align-self: flex-end;
-  margin-left: 3rem;
-  margin-bottom: 2rem;
-}
-
-.Middle-compass {
-}
-.Lean-compass {
-}
-.Design-compass {
-}
-.Stand-alone {
-}
-.compassRose {
-  width: auto;
-  height: 15.7rem;
-  align-items: center;
-  opacity: 0.6;
-  margin-left: -45%;
-}
-
 .Heading1 {
   width: 18rem;
   font-family: Proxima Nova;
@@ -69,125 +14,425 @@
   font-size: 23px;
   line-height: 2rem;
   color: #ffffff;
-  margin-right: 0rem;
   margin-top: -1rem;
   margin-left: 1rem;
   z-index: 1;
 }
+.Top-compass {
+  position: relative;
+  top: -4rem;
+  right: 13rem;
+  /* margin-left: 4rem; */
+  height: 5rem;
+  display: flex;
+  align-items: center;
+}
+.Html-compass {
+  color: #ffffff;
+  font-family: Proxima Nova;
+  opacity: 0.8;
+  align-self: self-start;
+}
+.Css-compass {
+  position: relative;
+  top: 1rem;
+  color: #ffffff;
+  font-family: Proxima Nova;
+  opacity: 0.8;
+  align-self: flex-start;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin-left: 9rem;
+  margin-top: -1rem;
+}
+.Bottom-compass {
+  position: relative;
+  left: -27rem;
+  top: 4rem;
+  justify-content: space-between;
+  display: flex;
+  /* margin-top: 11rem; */
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 15rem;
+}
+
+.Js-compass {
+  position: relative;
+  left: -2rem;
+  top: 1rem;
+  color: #ffffff;
+  font-family: Proxima Nova;
+  opacity: 0.8;
+}
+.React-compass {
+  position: relative;
+  left: 1rem;
+  top: 1rem;
+  color: #ffffff;
+  font-family: Proxima Nova;
+  opacity: 0.8;
+  align-items: center;
+}
+
+.Middle-compass {
+  position: relative;
+  left: -35rem;
+  display: flex;
+  /* align-self: end; */
+  /* flex-direction: column; */
+  /* margin-left: -29rem; */
+  height: 17rem;
+}
+.Lean-compass {
+  position: relative;
+  left: -0.2rem;
+  width: 4rem;
+  /* margin-left: 0px; */
+  margin-top: 2.7rem;
+  font-size: 0.92rem;
+  color: #457e9a;
+  opacity: 0.8;
+}
+.Design-compass {
+  width: 7rem;
+  position: relative;
+  top: -0.3rem;
+  left: -5.9rem;
+  align-self: flex-end;
+  /* color: antiquewhite; */
+  color: #457e9a;
+  opacity: 0.8;
+  /* font-size: .92rem; */
+  font-size: 0.92rem;
+  margin-bottom: 3rem;
+  margin-left: 0.5rem;
+}
+.Stand-alone {
+  position: relative;
+  right: 40.4rem;
+  width: 7rem;
+  top: -0.4rem;
+  color: #457e9a;
+  opacity: 0.8;
+  /* font-size: .92rem; */
+  font-size: 0.92rem;
+}
+.compassRose {
+  position: relative;
+  left: -6rem;
+  width: auto;
+  height: 15.7rem;
+  /* align-items: center; */
+  opacity: 0.6;
+  margin-left: -51rem;
+}
 
 @media only screen and (min-device-width: 414px) {
-  .Main-Sec {
-    margin-left: 47px;
+  .Top-compass {
+    right: 12rem;
   }
-  .hero {
-    height: 13.8rem;
+  .Html-compass {
+    margin-top: 0.2rem;
   }
-  .Heading1 {
-    margin-top: -12rem;
-    margin-left: -8rem;
+  .Css-compass {
+    left: 0.5rem;
+  }
+  .Bottom-compass {
+    left: -26rem;
+  }
+
+  .Js-compass {
+    left: -1.5rem;
+  }
+  .React-compass {
+    left: 0.2rem;
+    top: 0.9rem;
+  }
+
+  .Lean-compass {
+    margin-top: 2.2rem;
+    left: 0.1rem;
+  }
+  .Design-compass {
+    margin-bottom: 2.7rem;
+    left: -5.2rem;
+  }
+  .Stand-alone {
+    right: 39.5rem;
   }
 }
 
 @media only screen and (min-device-width: 768px) {
   .Main-Sec {
-    margin-left: 14rem;
-    margin-top: -95px;
-  }
-  .hero {
-    height: 25.6em;
-    margin-top: 5.8rem;
+    height: 27rem;
   }
   .Heading1 {
-    margin-right: 15rem;
-    margin-top: -23rem;
-    margin-bottom: 9rem;
-    font-size: 50px;
-    width: 317px;
-    line-height: 62px;
+    position: relative;
+    top: -1rem;
+    left: 3rem;
+    font-size: 3rem;
+    width: -moz-fit-content;
+    width: fit-content;
+    line-height: 4rem;
+  }
+  .Top-compass {
+    right: 8rem;
+    top: -6rem;
+  }
+  .Html-compass {
+    position: relative;
+    left: -4.8rem;
+    top: -0.5rem;
+    font-size: 1.3rem;
+  }
+  .Css-compass {
+    left: 0.2rem;
+    font-size: 1.3rem;
+    top: -0.1rem;
+  }
+  .Bottom-compass {
+    left: -26rem;
+  }
+
+  .Js-compass {
+    left: -4.6rem;
+    top: 3rem;
+    font-size: 1.3rem;
+  }
+  .React-compass {
+    left: 3.8rem;
+    top: 2.6rem;
+    font-size: 1.3rem;
+  }
+
+  .Lean-compass {
+    margin-top: -0.4rem;
+    font-size: 1.2rem;
+    left: -0.8rem;
+    width: fit-content;
+  }
+  .Design-compass {
+    margin-bottom: 0.3rem;
+    left: -6.7rem;
+    font-size: 1.2rem;
+    width: fit-content;
+  }
+  .Stand-alone {
+    right: 39.4rem;
+    font-size: 1.2rem;
+    width: fit-content;
+  }
+  .compassRose {
+    height: 22.7rem;
+    left: -13rem;
   }
 }
 
 @media only screen and (min-width: 1024px) {
   .Main-Sec {
-    margin-left: 22rem;
+    height: 43rem;
   }
   .Heading1 {
-    margin-right: 9rem;
-    margin-top: -29rem;
-    font-size: 65px;
-    width: 597px;
-    line-height: 82px;
+    font-size: 4.5rem;
+    line-height: 5rem;
+  }
+  .Top-compass {
+    left: -2rem;
+    top: -10rem;
+  }
+  .Html-compass {
+    top: 0.5rem;
+    left: -6.5rem;
+    font-size: 1.8rem;
+  }
+  .Css-compass {
+    left: 4.5rem;
+    font-size: 1.8rem;
+    top: 0.3rem;
+  }
+  .Bottom-compass {
+    left: -22rem;
+    top: 7rem;
   }
 
-  .hero {
-    height: 34.1em;
+  .Js-compass {
+    left: -7rem;
+    top: 3rem;
+    font-size: 1.8rem;
+  }
+  .React-compass {
+    left: 13.6rem;
+    top: 2.2rem;
+    font-size: 1.8rem;
+  }
+
+  .Middle-compass {
+    left: -31rem;
+  }
+  .Lean-compass {
+    font-size: 1.4rem;
+    top: -3.8rem;
+    left: 4.6rem;
+    width: 7rem;
+  }
+  .Design-compass {
+    left: -4.7rem;
+    top: 2.78rem;
+    font-size: 1.4rem;
+    width: 10rem;
+  }
+  .Stand-alone {
+    right: 30.4rem;
+    font-size: 1.4rem;
+    width: 13rem;
+  }
+  .compassRose {
+    height: 41.7rem;
   }
 }
 
 @media only screen and (min-width: 1224px) {
   .Main-Sec {
-    margin-left: 22rem;
+    height: 43rem;
   }
   .Heading1 {
-    margin-right: 3rem;
-    margin-top: -38rem;
-    margin-bottom: 9rem;
-    font-size: 75px;
-    width: 717px;
-    line-height: 89px;
+    font-size: 4.5rem;
+    line-height: 5rem;
   }
-  .hero {
-    height: 47.456em;
+  .Top-compass {
+    left: 3rem;
+    top: -11rem;
+  }
+  .Html-compass {
+    top: -0.1rem;
+    left: -7.9rem;
+  }
+  .Css-compass {
+    left: 6.1rem;
+    top: -0.2rem;
+  }
+  .Bottom-compass {
+    left: -17rem;
+    top: 8rem;
+  }
+
+  .Js-compass {
+    left: -8rem;
+    top: 4rem;
+  }
+  .React-compass {
+    left: 13.6rem;
+    top: 2.2rem;
+    font-size: 1.8rem;
+  }
+
+  .Middle-compass {
+    left: -28rem;
+  }
+  .Lean-compass {
+    top: -5.4rem;
+    left: 4.9rem;
+  }
+  .Design-compass {
+    left: -2.7rem;
+    top: 4.3rem;
+  }
+  .Stand-alone {
+    right: 25.4rem;
+  }
+  .compassRose {
+    height: 41.7rem;
   }
 }
 
 @media only screen and (min-width: 1668px) {
   .Main-Sec {
-    margin-left: 42rem;
-  }
-
-  .hero {
-    height: 55.599em;
   }
   .Heading1 {
-    margin-right: 28rem;
-    margin-top: -42rem;
-    margin-bottom: 9rem;
-    font-size: 91px;
-    width: 830px;
-    line-height: 100px;
+  }
+  .Top-compass {
+    left: 17rem;
+    top: -12rem;
+  }
+  .Html-compass {
+    top: -0.1rem;
+    left: -8.9rem;
+  }
+  .Css-compass {
+    left: 7.1rem;
+    top: -1.2rem;
+  }
+  .Bottom-compass {
+    left: -5rem;
+    top: 9rem;
+  }
+
+  .Js-compass {
+    left: -8rem;
+    top: 4rem;
+  }
+  .React-compass {
+    left: 13.6rem;
+    top: 2.2rem;
+    font-size: 1.8rem;
+  }
+
+  .Middle-compass {
+    left: -20rem;
+  }
+  .Lean-compass {
+    top: -6.7rem;
+    left: 4.9rem;
+  }
+  .Design-compass {
+    left: -2.7rem;
+    top: 5.3rem;
+  }
+  .Stand-alone {
+    right: 18.4rem;
+    top: -2rem;
+  }
+  .compassRose {
+    height: 41.7rem;
   }
 }
 @media only screen and (min-width: 1824px) {
-  .Main-Sec {
-    margin-left: 45rem;
+  .Top-compass {
+    left: 22rem;
+  }
+  .Html-compass {
+    left: -7.9rem;
+  }
+  .Css-compass {
+    left: 8.1rem;
+  }
+  .Bottom-compass {
+    left: -2rem;
+    top: 10rem;
   }
 
-  .hero {
-    height: 62.9em;
+  .Js-compass {
+    top: 3rem;
   }
-  .Heading1 {
-    margin-right: 25rem;
-    margin-top: -49rem;
-    margin-bottom: 9rem;
-    font-size: 110px;
-    width: 1030px;
-    line-height: 118px;
+  .React-compass {
+    left: 15.2rem;
+    top: 1.2rem;
   }
-}
 
-@media only screen and (min-width: 2500px) {
-  .Main-Sec {
-    margin-left: 70rem;
+  .Middle-compass {
+    left: -17rem;
   }
-  .hero {
-    height: 85.3em;
+  .Lean-compass {
+    top: -7rem;
   }
-  .Heading1 {
-    margin-right: 37rem;
-    margin-top: -58rem;
-    font-size: 110px;
-    width: 1030px;
-    line-height: 10rem;
+  .Design-compass {
+    top: 5.5rem;
+  }
+  .Stand-alone {
+    right: 16.4rem;
+  }
+  .compassRose {
+    height: 41.7rem;
   }
 }

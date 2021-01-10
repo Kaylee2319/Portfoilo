@@ -7,7 +7,7 @@ import './CssFiles/Nav.css'
 import './CssFiles/HeroBanner.css'
 import './CssFiles/AboutMe.css'
 import './CssFiles/SkillCards.css'
-// import './CssFiles/Projects.css'
+import './CssFiles/Projects.css'
 
 function App() {
   return (
