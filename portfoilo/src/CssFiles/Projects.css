@@ -18,22 +18,22 @@
   font-family: Proxima Nova;
   font-style: normal;
   font-weight: bold;
-  font-size: 35px;
+  font-size: 1.5rem;
   line-height: 61px;
   color: #394867;
   border: none;
   background: none;
   width: fit-content;
   height: fit-content;
-  margin-top: 8rem;
-  margin-left: -10rem;
+  margin-top: 6rem;
+  margin-left: -8rem;
 }
 
 .ProjectHeading2 {
   font-family: Proxima Nova;
   font-style: normal;
   font-weight: bold;
-  font-size: 35px;
+  font-size: 1.5rem;
   line-height: 61px;
   color: #394867;
   border: none;
@@ -41,33 +41,30 @@
   margin-left: 13rem;
   width: fit-content;
   height: fit-content;
-  margin-top: 8rem;
-  margin-left: 10rem;
+  margin-top: 6rem;
+  margin-left: 2rem;
 }
 
 .DevelopmentDescription {
   font-family: Proxima Nova;
   font-style: normal;
-  font-weight: 600;
-  font-size: 23px;
-  line-height: 2rem;
+  font-size: 1rem;
+  line-height: 1.4rem;
   color: #4a4d50;
-  align-self: flex-end;
-  margin-top: -6rem;
-  margin-left: 4rem;
-  width: 27rem;
+  margin-top: -9rem;
+  margin-left: 1rem;
+  width: 360px;
 }
 
 .DesignDescription {
   font-family: Proxima Nova;
   font-style: normal;
-  font-weight: 600;
-  font-size: 23px;
-  line-height: 2rem;
+  font-size: 1rem;
+  line-height: 1.4rem;
   color: #4a4d50;
-  margin-top: -6rem;
-  margin-left: 4rem;
-  width: 27rem;
+  margin-top: -9rem;
+  margin-left: 1rem;
+  width: 360px;
 }
 
 @media only screen and (min-device-width: 412px) and (max-device-width: 767px) {

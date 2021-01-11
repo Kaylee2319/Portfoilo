@@ -1,8 +1,11 @@
+.Skills-section {
+  width: 100vw;
+  background-color: #27292c;
+}
 .Heading3 {
   height: fit-content;
   width: fit-content;
-  margin-inline-start: 97px;
-  margin-right: -200px;
+  margin-left: 8rem;
   height: 61px;
   font-family: Proxima Nova;
   font-style: normal;
@@ -13,33 +16,32 @@
 }
 
 .skillcardgroup {
-  margin-top: -2rem;
   height: 81rem;
   display: flex;
   flex-direction: column;
   width: fit-content;
+  margin-left: 5rem;
+  margin-top: -4rem;
   justify-content: space-evenly;
 }
 
 .skillcard1 {
-  height: 25rem;
+  height: 23rem;
   background: linear-gradient(180.75deg, #244555 42.03%, #27292c 139.12%);
   border-radius: 15px;
   display: inline;
-  width: 20rem;
+  width: 14rem;
   display: flex;
   flex-direction: column;
 }
 
 .skills1 {
   list-style: none;
-  margin-top: -15px;
+  margin-top: -2rem;
   width: 200px;
-  height: 24.94px;
   font-family: Proxima Nova;
-  font-style: normal;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 1rem;
   line-height: 50px;
   color: #ffffff;
   display: block;
@@ -47,19 +49,19 @@
 
 p.cardtitle1 {
   font-family: Proxima Nova;
-  font-style: normal;
   font-weight: bold;
   font-size: 30px;
   line-height: 37px;
   color: #f1f6f9;
-  margin-left: 6rem;
+  margin-left: 3.3rem;
+  margin-top: 1rem;
 }
 
 .skillcard2 {
   background: linear-gradient(180.75deg, #244555 42.03%, #27292c 139.12%);
   border-radius: 15px;
-  width: 20rem;
-  height: 25rem;
+  width: 14rem;
+  height: 23rem;
   display: flex;
   flex-direction: column;
 }
@@ -67,52 +69,50 @@ p.cardtitle1 {
 .skills2 {
   list-style: none;
   font-family: Proxima Nova;
-  font-style: normal;
+
   font-weight: bold;
-  font-size: 20px;
+  font-size: 1rem;
   line-height: 50px;
   color: #ffffff;
-  margin-top: -15px;
+  margin-top: -2rem;
 }
 
 p.cardtitle2 {
   font-family: Proxima Nova;
-  font-style: normal;
   font-weight: bold;
   font-size: 30px;
   line-height: 37px;
   color: #f1f6f9;
-  margin-left: 7rem;
+  margin-left: 3.3rem;
+  margin-top: 1rem;
 }
 
 .skillcard3 {
   background: linear-gradient(180.75deg, #244555 42.03%, #27292c 139.12%);
   border-radius: 15px;
-  width: 20rem;
-  height: 25rem;
+  width: 14rem;
+  height: 23rem;
   display: flex;
   flex-direction: column;
 }
 .skills3 {
   list-style: none;
-  margin-top: -15px;
   font-family: Proxima Nova;
-  font-style: normal;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 1rem;
   line-height: 50px;
   color: #ffffff;
-  display: block;
+  margin-top: -2rem;
 }
 
 p.cardtitle3 {
   font-family: Proxima Nova;
-  font-style: normal;
   font-weight: bold;
   font-size: 30px;
   line-height: 37px;
   color: #f1f6f9;
-  margin-left: 6rem;
+  margin-left: 3.3rem;
+  margin-top: 1rem;
 }
 @media only screen and (min-device-width: 412px) {
 }

@@ -2,7 +2,7 @@ import React from 'react'
 
 const SkillCards = () => {
     return (
-    <div>
+    <div className='Skills-section'>
 
         <h1 className='Heading3'>Skills</h1>
             <div className='skillcardgroup'>
