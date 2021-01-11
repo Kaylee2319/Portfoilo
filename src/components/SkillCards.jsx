@@ -10,7 +10,7 @@ const SkillCards = () => {
                 <div className='skillcard1'>
                     <p className='cardtitle1'>General</p>
                     <ul className='skills1'>
-                        <li>Trello</li>
+                        <li>Trell</li>
                         <li>Figma</li>
                         <li>Adobe XD</li>
                         <li>Photoshop</li>
