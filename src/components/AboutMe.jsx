@@ -37,7 +37,7 @@ return (
                 be pursuing my passions by creating solutions to major problems, helping others, and giving back to the community with the use of technology.</p>
                 ) : (null)
 }
-                <a  onClick={Toggle}><span class="iconify" data-icon="bi:arrow-down-circle-fill" data-inline="false" data-width="50" data-height="50"></span></a>
+                <button  onClick={Toggle}><span class="iconify" data-icon="bi:arrow-down-circle-fill" data-inline="false" data-width="50" data-height="50"></span></button>
                     <SkillCards />
     </div>
 )}
